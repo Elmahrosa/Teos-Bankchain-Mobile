@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.md linguist-language=Markdown
+*.py linguist-language=Python
+*.kt linguist-language=Kotlin
+*.swift linguist-language=Swift
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
