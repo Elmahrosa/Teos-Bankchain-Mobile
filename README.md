@@ -2,6 +2,17 @@
 **Bank-Facing Crypto Gateway App (Android + iOS)**
 
 ![License](https://img.shields.io/badge/license-Proprietary%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)
+# TEOS BankChain Mobile
+
+![License](https://img.shields.io/badge/license-Proprietary%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)
+![CI](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)
+
+## Modules
+- `android/README.md` → Android app layout & next steps
+- `ios/README.md` → iOS app layout & next steps
+- `backend/README.md` → FastAPI backend layout & next steps
+- `blockchain/README.md` → Blockchain gateway layout & next steps
+- `compliance/README.md` → Compliance docs & next steps
 
 ---
 
