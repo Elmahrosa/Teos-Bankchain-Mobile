@@ -1,0 +1,28 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - run: pip install -r backend/requirements.txt
+      - run: pytest backend/tests
+
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: ./gradlew build
+        working-directory: android
+
+  ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: xcodebuild -scheme iosApp -sdk iphonesimulator
+        working-directory: ios
