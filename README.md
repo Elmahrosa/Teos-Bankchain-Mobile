@@ -38,7 +38,10 @@ It delivers secure custodial wallets, fiat/crypto conversion, compliance automat
 - Audit-ready repo layout with separation of duties and logging hooks.
 - Designed exclusively for **partner banks** under TEOS Egypt governance.
 
+### 📂 Repository Structure  
+See full layout in [`STRUCTURE.md`](STRUCTURE.md)
 
+---
 
 ## 🛠 Tech Stack
 
@@ -70,4 +73,3 @@ Not for public use. Not open source.
 ## 🔒 Contributing & Security
 - Contributions restricted to **approved partner banks**.
 - Security issues **must be reported privately** (see [SECURITY.md](SECURITY.md)).
-
