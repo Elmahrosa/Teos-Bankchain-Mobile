@@ -6,6 +6,10 @@
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-+201006167293-green?logo=whatsapp&logoColor=white)]()
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymanseif/)  
 
+## 📚 Documentation
+- [🚀 Roadmap](ROADMAP.md)
+- [📘 Onboarding Playbook](docs/ONBOARDING-PLAYBOOK.md)
+- [Compliance Templates](docs/compliance/)
 
 ## 📂 Repository Resources
 - [STRUCTURE.md](STRUCTURE.md) — Full repo layout  
