@@ -74,16 +74,15 @@ Structured for **audit-ready deployment** under TEOS Egypt framework:
 - Contributions restricted to **approved partner banks**.
 - Security issues **must be reported privately** (see [SECURITY.md](SECURITY.md)).
 
-- 
-
-## 📜 License
+## 📜 License & Contact
 **Private © Elmahrosa & TEOS Egypt**  
 Not for public use. Not open source.
 
-## 📜 License
-**Private © Elmahrosa & TEOS Egypt**  
-Not for public use. Not open source.
+**Direct Contact:**
 
-**Support:** ayman@teosegypt.com  
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-+201006167293-green?logo=whatsapp&logoColor=white)]()  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymanseif/)  
+[![Founder & CEO](https://img.shields.io/badge/Founder%20%26%20CEO-Ayman%20Seif-black)]()  
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+20%20100%20616%207293-green?logo=whatsapp&logoColor=white)](https://wa.me/201006167293)  
+[![Email](https://img.shields.io/badge/Email-ayman@teosegypt.com-blue?logo=gmail&logoColor=white)](mailto:ayman@teosegypt.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Global%20Profile-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymanseif/)  
+[![Instant Partner Access](https://img.shields.io/badge/Instant%20Partner%20Access-Available-orange)]()
+
