@@ -2,6 +2,11 @@
 
 [![License](https://img.shields.io/badge/license-Private%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)]()
 [![CI](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)]()
+## 📂 Repository Resources
+
+- [STRUCTURE.md](STRUCTURE.md) — Full repo layout  
+- [ROADMAP.md](ROADMAP.md) — Global product vision & milestones  
+- [Onboarding Playbook](docs/ONBOARDING-PLAYBOOK.md) — Step‑by‑step guide for banks joining TEOS 🌍👑  
 
 ⚠️ **Private Repository — Restricted to Partner Banks Only**  
 Access is limited to financial institutions operating under direct agreement with TEOS Egypt.  
