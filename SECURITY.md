@@ -1,5 +1,14 @@
 # SECURITY.md 🔐
 **Security & Data Protection Framework for TEOS BankChain Mobile**
+# Security Policy
+
+## Vulnerability Disclosure
+If you discover a vulnerability:
+- Email:ayman@teosegypt.com
+- Do not open public issues.
+- Provide reproduction steps.
+
+We will respond within 48 hours.
 
 ---
 
