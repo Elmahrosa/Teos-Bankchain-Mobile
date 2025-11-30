@@ -4,21 +4,28 @@
 Access is limited to financial institutions operating under direct agreement with TEOS Egypt.  
 Redistribution or public disclosure is prohibited.
 
----
-
 ## Supported Versions
 Security updates are applied to the **current production branch** only.  
 Older branches or forks are not supported.
 
 ---
 
-## Reporting a Vulnerability
+# SECURITY.md
 
+## Security Policy
+- **Report privately:** Use GitHub Security Advisories or email security@teosegypt.com.  
+- **No public issues:** Do not disclose vulnerabilities in public issues or PRs.  
+- **Timeline:** We acknowledge within 72 hours and provide a fix/mitigation plan.  
+- **Scope:** Backend (FastAPI), Mobile (Expo/React Native), CI/CD.  
+
+---
+
+## Reporting a Vulnerability
 If you discover a security issue:
 
-1. **Do not open a public issue.**
-2. **Do not disclose details in commits, pull requests, or external channels.**
-3. Report privately to TEOS Egypt maintainers via the designated bank contact channel.
+1. **Do not open a public issue.**  
+2. **Do not disclose details in commits, pull requests, or external channels.**  
+3. Report privately to TEOS Egypt maintainers via the designated bank contact channel.  
 
 ### Required Information
 - Detailed description of the vulnerability  
@@ -32,7 +39,7 @@ If you discover a security issue:
 - Reports are acknowledged within **48 hours**.  
 - Critical vulnerabilities are triaged immediately and patched under **bank‑only release cycles**.  
 - Partner banks receive advisories through secure communication channels.  
-- Public disclosure is prohibited unless explicitly authorized by TEOS Egypt.
+- Public disclosure is prohibited unless explicitly authorized by TEOS Egypt.  
 
 ---
 
@@ -41,12 +48,12 @@ If you discover a security issue:
 - Follow **least privilege** principles when accessing repo modules.  
 - Ensure **audit logs** are preserved for all development activity.  
 - Never commit secrets, credentials, or sensitive data.  
-- Run `pytest` and CI checks before submitting code.
+- Run `pytest` and CI checks before submitting code.  
 
 ---
 
 ## Compliance
-This project is governed under TEOS Egypt’s compliance framework:
+This project is governed under TEOS Egypt’s compliance framework:  
 - KYC/AML enforcement  
 - Regulator reporting  
 - Immutable audit trails  
@@ -56,4 +63,4 @@ This project is governed under TEOS Egypt’s compliance framework:
 ## Contact
 For all security matters, contact:  
 **TEOS Egypt Security Team**  
-📧 [Private bank channel only]  
+📧 [Private bank channel only]
