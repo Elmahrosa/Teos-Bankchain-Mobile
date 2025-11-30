@@ -10,9 +10,9 @@ Older branches or forks are not supported.
 
 ---
 
-# SECURITY.md
+## SECURITY.md
 
-## Security Policy
+### Security Policy
 - **Report privately:** Use GitHub Security Advisories or email security@teosegypt.com.  
 - **No public issues:** Do not disclose vulnerabilities in public issues or PRs.  
 - **Timeline:** We acknowledge within 72 hours and provide a fix/mitigation plan.  
@@ -20,14 +20,14 @@ Older branches or forks are not supported.
 
 ---
 
-## Reporting a Vulnerability
+### Reporting a Vulnerability
 If you discover a security issue:
 
 1. **Do not open a public issue.**  
 2. **Do not disclose details in commits, pull requests, or external channels.**  
 3. Report privately to TEOS Egypt maintainers via the designated bank contact channel.  
 
-### Required Information
+#### Required Information
 - Detailed description of the vulnerability  
 - Steps to reproduce  
 - Impact assessment (data exposure, financial risk, compliance breach)  
@@ -35,7 +35,7 @@ If you discover a security issue:
 
 ---
 
-## Handling Process
+### Handling Process
 - Reports are acknowledged within **48 hours**.  
 - Critical vulnerabilities are triaged immediately and patched under **bank‑only release cycles**.  
 - Partner banks receive advisories through secure communication channels.  
@@ -43,7 +43,7 @@ If you discover a security issue:
 
 ---
 
-## Security Best Practices for Contributors
+### Security Best Practices for Contributors
 - Use **bank‑approved devices** and secure VPN connections.  
 - Follow **least privilege** principles when accessing repo modules.  
 - Ensure **audit logs** are preserved for all development activity.  
@@ -52,7 +52,7 @@ If you discover a security issue:
 
 ---
 
-## Compliance
+### Compliance
 This project is governed under TEOS Egypt’s compliance framework:  
 - KYC/AML enforcement  
 - Regulator reporting  
@@ -60,7 +60,7 @@ This project is governed under TEOS Egypt’s compliance framework:
 
 ---
 
-## Contact
+### Contact
 For all security matters, contact:  
 **TEOS Egypt Security Team**  
 📧 [Private bank channel only]
