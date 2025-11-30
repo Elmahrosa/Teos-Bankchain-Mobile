@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-Private%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)]()
 [![CI](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)]()
+[![Pilot Program](https://img.shields.io/badge/Pilot%20Program-Locked%20In%20🌍👑-blue)]()
+
 ## 📂 Repository Resources
 
 - [STRUCTURE.md](STRUCTURE.md) — Full repo layout  
