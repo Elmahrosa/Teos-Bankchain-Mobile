@@ -1,12 +1,15 @@
 # TEOS BankChain Mobile 🚀
 
 [![License](https://img.shields.io/badge/license-Private%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)]()
-[![CI](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)]()
+[![CI](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml)
 [![Pilot Program](https://img.shields.io/badge/Pilot%20Program-Locked%20In%20🌍👑-blue)]()
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-+201006167293-green?logo=whatsapp&logoColor=white)](https://wa.me/201006167293)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymanseif/)  
-[![Build](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions)
+[![Build](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/Elmahrosa/Teos-Bankchain-Mobile)](LICENSE)
+[![Verify](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/verify.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/verify.yml)
+[![CodeQL](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/codeql.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/codeql.yml)
+[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-success)](#)
 
 ---
 
