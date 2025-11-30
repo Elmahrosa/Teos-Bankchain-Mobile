@@ -8,15 +8,14 @@
 [![Build](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions)
 [![License](https://img.shields.io/github/license/Elmahrosa/Teos-Bankchain-Mobile)](LICENSE)
 
-## 📚 Documentation
-- [🚀 Roadmap](ROADMAP.md)
-- [📘 Onboarding Playbook](docs/ONBOARDING-PLAYBOOK.md)
-- [Compliance Templates](docs/compliance/)
+## 📚 Documentation & Resources
 
-## 📂 Repository Resources
-- [STRUCTURE.md](STRUCTURE.md) — Full repo layout  
-- [ROADMAP.md](ROADMAP.md) — Global product vision & milestones  
-- [ONBOARDING-PLAYBOOK.md](docs/ONBOARDING-PLAYBOOK.md) — Step‑by‑step guide for banks joining TEOS 🌍👑  
+- [🚀 Roadmap](ROADMAP.md) — Global product vision & milestones  
+- [📘 Onboarding Playbook](docs/ONBOARDING-PLAYBOOK.md) — Step‑by‑step guide for banks joining TEOS 🌍👑  
+- [📂 Repository Structure](STRUCTURE.md) — Full repo layout  
+- [⚖️ Compliance Templates](docs/compliance/) — Regulator alignment & reporting  
+
+---
 
 ⚠️ **Private Repository — Restricted to Partner Banks Only**  
 Access is limited to financial institutions operating under direct agreement with TEOS Egypt.  
@@ -85,6 +84,63 @@ Structured for **audit-ready deployment** under TEOS Egypt framework:
 Not for public use. Not open source.
 Permission is granted only to partner banks and institutions under direct agreement with TEOS Egypt.  
 Redistribution, modification, or public disclosure is strictly prohibited.  
+# 📜 License & NDA Agreement
+
+**Private © Elmahrosa & TEOS Egypt**  
+Effective Date: Nov 30, 2025
+
+---
+
+## 1. Ownership
+All code, documentation, and assets within this repository are the exclusive property of **Elmahrosa & TEOS Egypt**.  
+No rights are granted except as explicitly stated in this agreement.
+
+---
+
+## 2. Grant of Access
+Access is strictly limited to **partner banks and financial institutions** operating under direct agreement with TEOS Egypt.  
+Use is permitted solely for evaluation, pilot deployment, and production rollout under NDA.
+
+---
+
+## 3. Non‑Disclosure Agreement (NDA)
+- Recipient agrees not to disclose, copy, or redistribute any part of this repository.  
+- Recipient must maintain confidentiality of all technical, compliance, and operational details.  
+- Disclosure to regulators is permitted only for compliance purposes and must be coordinated with TEOS Egypt.  
+- Any breach of NDA will result in immediate termination of access and potential legal action.
+
+---
+
+## 4. Restrictions
+- No sublicensing, resale, or redistribution.  
+- No modification outside agreed pilot scope without written approval.  
+- No public disclosure of repo contents, screenshots, or documentation.
+
+---
+
+## 5. Compliance
+Recipient agrees to operate under the compliance frameworks defined by TEOS Egypt, including:  
+- KYC/AML enforcement  
+- Audit trails  
+- Regulator reporting  
+
+---
+
+## 6. Support & Contact
+For onboarding, compliance, and technical support:  
+📧 ayman@teosegypt.com  
+📱 WhatsApp: +20 100 616 7293  
+🔗 [LinkedIn: Ayman Seif](https://www.linkedin.com/in/aymanseif/)
+
+---
+
+## 7. Governing Law
+This agreement is governed by the laws of Egypt.  
+Disputes will be resolved under the jurisdiction of Alexandria courts.
+
+---
+
+**By accessing this repository, you acknowledge and agree to the terms of this NDA and license.**
 
 **Direct Contact:**
 
