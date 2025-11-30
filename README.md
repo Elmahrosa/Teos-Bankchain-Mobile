@@ -3,12 +3,14 @@
 [![License](https://img.shields.io/badge/license-Private%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)]()
 [![CI](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)]()
 [![Pilot Program](https://img.shields.io/badge/Pilot%20Program-Locked%20In%20🌍👑-blue)]()
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+201006167293-green?logo=whatsapp&logoColor=white)]()
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymanseif/)  
+
 
 ## 📂 Repository Resources
-
 - [STRUCTURE.md](STRUCTURE.md) — Full repo layout  
 - [ROADMAP.md](ROADMAP.md) — Global product vision & milestones  
-- [Onboarding Playbook](docs/ONBOARDING-PLAYBOOK.md) — Step‑by‑step guide for banks joining TEOS 🌍👑  
+- [ONBOARDING-PLAYBOOK.md](docs/ONBOARDING-PLAYBOOK.md) — Step‑by‑step guide for banks joining TEOS 🌍👑  
 
 ⚠️ **Private Repository — Restricted to Partner Banks Only**  
 Access is limited to financial institutions operating under direct agreement with TEOS Egypt.  
@@ -44,12 +46,6 @@ It delivers secure custodial wallets, fiat/crypto conversion, compliance automat
 - CI/CD via GitHub Actions (linting, tests, deployment gating).
 - Audit-ready repo layout with separation of duties and logging hooks.
 - Designed exclusively for **partner banks** under TEOS Egypt governance.
-- 
-## 📁 Repository Resources
-
-- [STRUCTURE.md](STRUCTURE.md) — Full repo layout  
-- [ROADMAP.md](ROADMAP.md) — Global product vision & milestones  
-- [ONBOARDING-PLAYBOOK.md](docs/ONBOARDING-PLAYBOOK.md) — Step-by-step guide for banks joining TEOS 🌍👑  
 
 ### 📂 Repository Structure  
 See full layout in [`STRUCTURE.md`](STRUCTURE.md)
@@ -72,17 +68,22 @@ Structured for **audit-ready deployment** under TEOS Egypt framework:
 - KYC/AML enforcement
 - Monitoring and regulator reporting
 - Immutable audit trails
+- 
 
----
+## 🔒 Contributing & Security
+- Contributions restricted to **approved partner banks**.
+- Security issues **must be reported privately** (see [SECURITY.md](SECURITY.md)).
+
+- 
 
 ## 📜 License
 **Private © Elmahrosa & TEOS Egypt**  
 Not for public use. Not open source.
 
-**Support:** ayman@teosegypt.com
+## 📜 License
+**Private © Elmahrosa & TEOS Egypt**  
+Not for public use. Not open source.
 
----
-
-## 🔒 Contributing & Security
-- Contributions restricted to **approved partner banks**.
-- Security issues **must be reported privately** (see [SECURITY.md](SECURITY.md)).
+**Support:** ayman@teosegypt.com  
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+201006167293-green?logo=whatsapp&logoColor=white)]()  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymanseif/)  
