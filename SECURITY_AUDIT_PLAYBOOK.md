@@ -62,8 +62,8 @@ It ensures compliance, resilience, and regulator‑ready reporting.
 - **Postman collection** (`TEOS_BankChain_Postman_Collection.json`)  
 - **OpenAPI spec** (`openapi.yaml`)  
 - **ISO 20022 XML samples** (`pacs.008.sample.xml`)  
-- **Static analysis**: CodeQL, Bandit, ESLint  
-- **Dynamic testing**: OWASP ZAP, Burp Suite  
+- **Static analysis:** CodeQL, Bandit, ESLint  
+- **Dynamic testing:** OWASP ZAP, Burp Suite  
 
 ---
 
@@ -88,5 +88,4 @@ It ensures compliance, resilience, and regulator‑ready reporting.
 ---
 
 ## 🔁 Change Log
-- `2025-11-30` — Initial scaffold for partner bank security audits
-
+- `2025-12-01` — Unified scaffold for partner bank security audits
