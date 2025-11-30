@@ -17,9 +17,7 @@ It covers authentication, endpoints, request/response formats, and compliance re
 Example:
 ```http
 Authorization: Bearer <access_token>
-Here’s a **ready‑to‑use `API_GUIDE.md`** file for your repo **`teos-bankchain-mobile`**, boss 👌. This document explains how banks and developers can integrate with your crypto‑fiat gateway via APIs:
 
-```markdown
 # API_GUIDE.md 🔌
 **Integration Guide for TEOS BankChain Mobile APIs**
 
