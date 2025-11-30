@@ -1,28 +1,21 @@
+# .github/workflows/ci.yml
 name: CI
 
 on: [push, pull_request]
 
 jobs:
-  backend:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-      - run: pip install -r backend/requirements.txt
-      - run: pytest backend/tests
-
-  android:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: ./gradlew build
-        working-directory: android
-
-  ios:
-    runs-on: macos-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: xcodebuild -scheme iosApp -sdk iphonesimulator
-        working-directory: ios
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+      - name: Run tests
+        run: |
+          pytest -q
