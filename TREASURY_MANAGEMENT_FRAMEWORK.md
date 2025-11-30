@@ -1,88 +1,93 @@
-# Global Governance Framework — TEOS BankChain Mobile 🌍⚖️
+# Treasury Management Framework — TEOS BankChain Mobile 💰🏛️
 
-⚠️ **Private Document — Restricted to Partner Banks, Fintechs & Regulators Only**  
+⚠️ **Private Document — Restricted to Partner Banks & Regulators Only**  
 Access is limited to institutions operating under direct agreement with TEOS Egypt.  
 Redistribution or public disclosure is prohibited.
 
 ---
 
 ## 📌 Purpose
-This framework establishes the **global governance model** for TEOS BankChain Mobile.  
-It ensures protocol upgrades, treasury contributions, and compliance modules are **transparent, regulator‑aligned, and globally scalable**.
+This framework establishes the **treasury management model** for TEOS BankChain Mobile.  
+It ensures liquidity flows, contribution rates, staking pools, and governance rewards are **transparent, regulator‑aligned, and globally scalable**.
 
 ---
 
-## 🧭 Governance Layers
+## 🧭 Treasury Components
 
-### Layer 1 — Local Governance
-- Partner banks and fintechs mint NFT governance tokens.  
+### 1. Contribution Mechanism
+- Default contribution rate: **0.25% per transaction**.  
+- Contributions logged in immutable audit trails.  
+- Configurable per jurisdiction with regulator approval.  
+- Funds allocated to treasury pools for liquidity and governance rewards.  
+
+### 2. Liquidity Pools
+- Regional pools: Egypt (CBE), Saudi Arabia (SAMA), UK (FCA), EU (GDPR/PSD2).  
+- Global pool: FATF‑aligned cross‑border liquidity.  
+- Pools audited quarterly with regulator oversight.  
+- Balances published via `/treasury/balance`.  
+
+### 3. Staking Rewards
+- Clients and institutions stake governance tokens.  
+- Rewards distributed quarterly based on contribution volume.  
+- Reward logs published in immutable audit trails.  
+- NFT governance tokens linked to staking participation.  
+
+### 4. Governance Integration
+- Treasury proposals submitted via governance dashboard.  
 - Voting rights proportional to staked governance tokens.  
-- Local regulator oversight (CBE, SAMA, FCA, FATF).  
-- Decisions limited to jurisdiction‑specific compliance modules.  
-
-### Layer 2 — Regional Governance
-- Aggregates local votes into regional councils (MENA, EU, LATAM, APAC).  
-- Oversees treasury contribution rates and staking reward distribution.  
-- Aligns with regional regulators (SAMA, FCA, EU PSD2/GDPR).  
-- Provides quarterly reports to TEOS Egypt Governance Team.  
-
-### Layer 3 — Global Governance
-- Consolidates regional votes into global protocol decisions.  
-- Oversees protocol upgrades, compliance frameworks, and treasury liquidity flows.  
-- Aligns with FATF standards for cross‑border compliance.  
-- Publishes governance results via `/governance/results`.  
+- Decisions ratified at local, regional, and global levels.  
+- Results published via `/governance/results`.  
 
 ---
 
-## 📑 Governance Process
+## 📑 Treasury Processes
 
-### Step 1 — Proposal Submission
-- Banks/fintechs submit proposals via governance dashboard.  
-- Proposals tagged: **Compliance**, **Treasury**, **Protocol Upgrade**, **Governance Operations**.  
+### Contribution Flow
+1. Transaction executed.  
+2. Contribution fee deducted (default 0.25%).  
+3. Fee allocated to regional treasury pool.  
+4. Pool balances updated in real time.  
 
-### Step 2 — Voting
-- Local votes cast via NFT governance tokens.  
-- Regional councils aggregate votes.  
-- Global council ratifies decisions with regulator observers.  
+### Reward Flow
+1. Governance tokens staked.  
+2. Quarterly reward calculation executed.  
+3. Rewards distributed to staking participants.  
+4. Logs published and regulator‑aligned.  
 
-### Step 3 — Execution
-- Protocol upgrades deployed via CI/CD pipelines.  
-- Treasury contributions adjusted automatically.  
-- Compliance modules updated with regulator approval.  
-
-### Step 4 — Transparency
-- Immutable audit logs record all proposals and votes.  
-- Governance results published in real time.  
-- Regulator dashboards provide oversight access.  
+### Audit Flow
+1. Treasury balances exported quarterly.  
+2. Reports delivered via secure channels (SFTP, HTTPS, regulator portal).  
+3. Signed manifest provided: `{file_hash, record_count, generated_by, signature}`.  
+4. Regulator dry‑run audits conducted.  
 
 ---
 
 ## 🔒 Compliance Alignment
-- **CBE (Egypt):** AML scoring, transaction reporting, treasury audit.  
+- **CBE (Egypt):** Treasury audit, AML scoring, transaction reporting.  
 - **SAMA (Saudi Arabia):** sanctions/PEP screening, beneficial owner reporting.  
-- **FCA (UK):** SAR uploads, governance transparency.  
-- **FATF (International):** AML typologies, suspicious activity aggregation.  
-- **EU (GDPR/PSD2):** data privacy and payment compliance.  
+- **FCA (UK):** governance transparency, SAR uploads.  
+- **FATF (International):** cross‑border liquidity reporting, suspicious activity aggregation.  
+- **EU (GDPR/PSD2):** treasury data privacy and payment compliance.  
 
 ---
 
-## 📑 Governance Checklist
-- [ ] Proposal submitted and tagged correctly.  
-- [ ] Local votes cast and logged.  
-- [ ] Regional council aggregation completed.  
-- [ ] Global council ratification executed.  
-- [ ] Regulator oversight confirmed.  
-- [ ] Governance results published.  
+## 📑 Treasury Checklist
+- [ ] Contribution rate configured and regulator‑approved.  
+- [ ] Liquidity pools established and audited.  
+- [ ] Staking rewards distributed quarterly.  
+- [ ] Governance proposals submitted and ratified.  
+- [ ] Treasury balances exported to regulators.  
+- [ ] Immutable audit logs verified.  
 
 ---
 
 ## 📞 Contact
-**TEOS Egypt — Global Governance Team**  
-📧 governance@teos-egypt.internal *(private partner channel only)*  
+**TEOS Egypt — Treasury & Governance Team**  
+📧 treasury@teos-egypt.internal *(private partner channel only)*  
 📱 WhatsApp: +20 100 616 7293  
 🔗 [LinkedIn: Ayman Seif](https://www.linkedin.com/in/aymanseif/)
 
 ---
 
 ## 🔁 Change Log
-- `2025-12-01` — Initial scaffold for global governance framework
+- `2025-12-01` — Initial scaffold for treasury management framework
