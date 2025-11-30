@@ -1,68 +1,33 @@
-# ROADMAP.md 🛣️
-**Feature Rollout Plan for TEOS BankChain Mobile**
+# 🚀 TEOS BankChain Mobile — Product Roadmap
+
+**Private: Partner Banks Only**  
+© TEOS Egypt & Elmahrosa | Not for public disclosure.
 
 ---
 
-## 📖 Purpose
-This roadmap outlines the phased development and deployment strategy for TEOS BankChain Mobile.  
-It ensures transparency for contributors, banks, and regulators, and provides a clear timeline for feature delivery.
+## 📈 Vision
+Deliver a **compliant, scalable mobile gateway** enabling Egyptian banks to offer fiat/crypto services via vetted blockchain networks.  
+**Target Launch:** Q1 2026 (MVP for pilot banks).
+
+**Guiding Principles:**
+- Compliance-first (CBUAE, SAMA, CBE alignment)
+- Modular architecture for rapid iteration
+- Bank-grade security and auditability
 
 ---
 
-## 🏗️ Phase 1: Core Infrastructure (Q1)
-- [ ] Set up repo structure (Android, iOS, backend, blockchain, compliance).  
-- [ ] Build **Admin Dashboard** for banks (mobile + web).  
-- [ ] Implement **Crypto-Fiat Conversion Engine** (USD, EUR, BTC, ETH, Pi).  
-- [ ] Integrate **basic KYC/AML modules**.  
-- [ ] Launch **sandbox environment** for internal testing.  
+## 🗺 Roadmap Phases
+
+| Phase | Timeline | Key Deliverables | Status |
+|-------|----------|------------------|--------|
+| **0: Foundation**<br/>(Complete) | ✅ Now | - FastAPI backend scaffold<br/>- Expo mobile client<br/>- CI/CD pipelines<br/>- Compliance stubs | ✅ Done |
+| **1: Core Banking**<br/>MVP | Q4 2025 | - `/accounts` (custodial wallets)<br/>- `/convert` (fiat ↔ crypto)<br/>- KYC/AML flows<br/>- Mobile auth (OTP, biometrics)<br/>- Open Banking adapters | 🔄 In Dev |
+| **2: Blockchain Gateway** | Q1 2026 | - Ethereum connector (USDT/USDC)<br/>- Pi Network integration<br/>- Bitcoin settlements<br/>- Gas optimization & MEV protection | 📋 Planned |
+| **3: Compliance Pro** | Q2 2026 | - Real-time AML monitoring<br/>- Regulator reporting (CBE/SAMA)<br/>- Immutable audit trails<br/>- Travel Rule (FATF) compliance | 📋 Planned |
+| **4: Scale & Enterprise** | Q3 2026+ | - Native Android/iOS builds<br/>- Multi-bank liquidity pools<br/>- On-prem deployment<br/>- Advanced analytics dashboard | 📋 Future |
 
 ---
 
-## 📱 Phase 2: Mobile Apps (Q2)
-- [ ] Develop **Android app** (Kotlin + Jetpack Compose).  
-- [ ] Develop **iOS app** (Swift + SwiftUI).  
-- [ ] Add **wallet management** (custodial + non-custodial).  
-- [ ] Enable **multi-factor authentication (MFA)** for bank staff.  
-- [ ] Connect apps to backend APIs.  
+## 🎯 Milestone Details
 
----
-
-## 🌐 Phase 3: Blockchain Gateway (Q3)
-- [ ] Integrate **Ethereum** via Web3.js / ethers.js.  
-- [ ] Integrate **Pi Network** via Pi SDK.  
-- [ ] Integrate **Bitcoin** via RPC.  
-- [ ] Add **stablecoin support** (USDT, USDC).  
-- [ ] Enable **real-time transaction monitoring**.  
-
----
-
-## 🛡️ Phase 4: Compliance & Security (Q4)
-- [ ] Expand **AML monitoring** with pattern detection.  
-- [ ] Add **regulatory reporting module** (CSV, PDF exports).  
-- [ ] Implement **audit logging dashboard**.  
-- [ ] Conduct **penetration testing** and security audits.  
-- [ ] Deploy **incident response workflow**.  
-
----
-
-## 🚀 Phase 5: Deployment & Scaling (Next Year)
-- [ ] Package as **B2B SaaS** for banks.  
-- [ ] Deploy on **AWS/Azure** with Docker + CI/CD pipelines.  
-- [ ] Pilot launch in **Germany/EU** (clearer regulations).  
-- [ ] Expand to **MENA & Africa** markets.  
-- [ ] Position Egypt as the **mythic hub** of civic-first blockchain banking.  
-
----
-
-## 📊 Long-Term Goals
-- Global rollout of TEOS BankChain Mobile.  
-- Full integration with **Open Banking APIs** (PSD2, SWIFT, SEPA).  
-- Launch **bank-facing crypto gateways** as a new financial category.  
-- Anchor Egypt as the **world’s civic blockchain hub**.  
-
----
-
-## 📜 Notes
-- Roadmap is subject to regulatory changes and market conditions.  
-- All phases require compliance approval before production deployment.  
-- Contributions must follow `SECURITY.md` and `COMPLIANCE.md`.  
+### Phase 1: Core Banking (Priority 1)
