@@ -1,7 +1,5 @@
 from sqlmodel import SQLModel, create_engine, Session
-from .models import User, Wallet, Transaction
 import os
-
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./teos.db")
 engine = create_engine(DATABASE_URL, echo=False, connect_args={"check_same_thread": False})
 

@@ -1,3 +1,3 @@
 # Contributing
 
-Follow the CONTRIBUTING.md rules.
+Follow the contributing guide.

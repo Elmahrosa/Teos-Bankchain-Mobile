@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
 import axios from 'axios';
+import { registerForPushNotificationsAsync } from '../../services/push';
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
@@ -10,7 +11,10 @@ export default function LoginScreen({ navigation }) {
     try {
       const res = await axios.post('http://10.0.2.2:8000/auth/login', { email, password });
       const token = res.data.access_token;
-      // store token (omitted for brevity) and navigate
+      try {
+        const pushToken = await registerForPushNotificationsAsync();
+        if(pushToken){ await axios.post('http://10.0.2.2:8000/push/register', { token: pushToken, user_id: null }); }
+      } catch(e){ console.log('push register', e.message) }
       navigation.replace('Dashboard', { token });
     } catch (e) {
       Alert.alert('Login failed', e.response?.data?.detail || e.message);
