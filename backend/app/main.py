@@ -1,15 +1,4 @@
-def health_check():
-    return {"status": "ok"}
-
 from fastapi import FastAPI
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/health")
-def health_check():
-    return {"status": "ok"}
-
 from fastapi.middleware.cors import CORSMiddleware
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
@@ -19,6 +8,7 @@ from .admin import router as admin_router
 from .routers import push, push_register, payments
 
 limiter = Limiter(key_func=get_remote_address)
+
 app = FastAPI(title="TEOS BankChain API", version="1.0.0")
 app.state.limiter = limiter
 app.add_exception_handler(429, _rate_limit_exceeded_handler)
@@ -30,6 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Routers
 app.include_router(auth.router, prefix="/auth", tags=["auth"])
 app.include_router(users.router, prefix="/users", tags=["users"])
 app.include_router(wallets.router, prefix="/wallets", tags=["wallets"])
@@ -45,4 +36,4 @@ def on_startup():
 
 @app.get("/health")
 def health():
-    return {"status":"healthy"}
+    return {"status": "healthy"}
