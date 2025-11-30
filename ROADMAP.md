@@ -1,3 +1,62 @@
+# Roadmap — TEOS BankChain Mobile 🌍👑
+
+This roadmap outlines the strategic milestones for TEOS BankChain Mobile under **Elmahrosa & TEOS Egypt** governance.  
+It is designed for partner banks, regulators, and institutions to track progress toward global deployment.
+
+---
+
+## 📌 Phase 1 — Pilot & Compliance (Q4 2025 – Q1 2026)
+- ✅ Private repo finalized with NDA, LICENSE, CONTRIBUTING, CODE_OF_CONDUCT, SECURITY, CHANGELOG.  
+- ✅ FastAPI backend scaffolding with custodial wallet + fiat/crypto conversion.  
+- ✅ Expo/React Native mobile client with bank‑grade authentication.  
+- ✅ CI/CD pipelines (`verify.yml`, `ci.yml`, `codeql.yml`) enforced.  
+- ✅ Compliance templates (KYC/AML, regulator reporting, audit trails).  
+- 🔒 Pilot onboarding of first partner banks under NDA.  
+
+---
+
+## 📌 Phase 2 — Audit & Expansion (Q2 2026)
+- 🔍 Independent compliance audit (security, KYC/AML, regulator readiness).  
+- 📘 Onboarding Playbook finalized for partner banks.  
+- 📂 Contributor dashboards and badge logic integrated.  
+- 🌐 Expand pilot program to additional banks in MENA region.  
+- 🛡️ Harden CI/CD with merge queue, signed commits, and deployment gates.  
+
+---
+
+## 📌 Phase 3 — Global Deployment (Q3 2026)
+- 🌍 Blockchain gateway connectors for Ethereum, Pi Network, Bitcoin, and compliant stablecoins.  
+- 🏦 Integration with Open Banking APIs and liquidity orchestration.  
+- 📊 Monitoring dashboards for regulators and compliance officers.  
+- 📱 Mobile app hardened for enterprise MDM and production rollout.  
+- 🔒 Immutable audit trails and regulator reporting live.  
+
+---
+
+## 📌 Phase 4 — Commercialization (Q4 2026 – 2027)
+- 💼 Productization as SaaS and enterprise licensing models.  
+- 🏛️ Anchor Egypt as mythic hub of civic blockchain constitution.  
+- 📜 Enterprise contracts and support agreements with global banks.  
+- 💳 Treasury contributions, staking rewards, and NFT‑based governance expansion.  
+- 📈 Evergreen operation with global sales and support contracts.  
+
+---
+
+## 📌 Long‑Term Vision (2027+)
+- 🌍 Scale TEOS BankChain Mobile into a global compliance‑first banking gateway.  
+- 🏛️ Position Elmahrosa & TEOS Egypt as the mythic origin of civic blockchain governance.  
+- 🔗 Continuous integration of new blockchain networks and regulatory frameworks.  
+- 🧭 Adaptive roadmap updates every quarter, aligned with partner bank feedback.  
+
+---
+
+## 🔑 Governance
+- All roadmap milestones are subject to **TEOS Egypt compliance framework**.  
+- Releases must pass **Verify**, **CI**, and **CodeQL** workflows before tagging.  
+- Partner banks receive roadmap updates via secure channels only.  
+
+---
+
 # 🚀 TEOS BankChain Mobile — Product Roadmap
 
 **Private: Partner Banks Only**  
@@ -41,18 +100,15 @@ Our phased approach begins with pilot banks in **Q1 2026**, expanding globally a
 
 ---
 
-## 🎯 Milestone Details
-
-### Phase 1: Core Banking (Priority 1)
-### 🎯 Phase 1: Core Banking (Priority 1)
+## 🎯 Milestone Details — Phase 1: Core Banking (Priority 1)
 
 **Endpoints (Backend API):**
-├── POST /accounts/create       # Custodial wallet (multi-fiat, multi-crypto, regulator-compliant)  
-├── POST /convert/execute       # Fiat ↔ Crypto conversion (EGP, USD, EUR → USDT/USDC)  
-├── GET /balance                # Unified multi-asset view (fiat + crypto)  
-├── POST /transactions          # Transaction history with jurisdiction-specific audit export  
-├── GET /rates                  # Real-time FX + crypto rates (stablecoin hedged)  
-└── POST /auth/login            # Bank-grade authentication (OTP, biometrics, MFA)  
+- `POST /accounts/create` — Custodial wallet (multi-fiat, multi-crypto, regulator-compliant)  
+- `POST /convert/execute` — Fiat ↔ Crypto conversion (EGP, USD, EUR → USDT/USDC)  
+- `GET /balance` — Unified multi-asset view (fiat + crypto)  
+- `POST /transactions` — Transaction history with jurisdiction-specific audit export  
+- `GET /rates` — Real-time FX + crypto rates (stablecoin hedged)  
+- `POST /auth/login` — Bank-grade authentication (OTP, biometrics, MFA)  
 
 **Mobile Features (Expo / React Native):**
 - Secure login with OTP + biometric (FaceID/TouchID)  
