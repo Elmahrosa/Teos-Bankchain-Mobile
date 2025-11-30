@@ -5,6 +5,8 @@
 [![Pilot Program](https://img.shields.io/badge/Pilot%20Program-Locked%20In%20🌍👑-blue)]()
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-+201006167293-green?logo=whatsapp&logoColor=white)]()
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymanseif/)  
+[![Build](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions)
+[![License](https://img.shields.io/github/license/Elmahrosa/Teos-Bankchain-Mobile)](LICENSE)
 
 ## 📚 Documentation
 - [🚀 Roadmap](ROADMAP.md)
@@ -81,6 +83,8 @@ Structured for **audit-ready deployment** under TEOS Egypt framework:
 ## 📜 License & Contact
 **Private © Elmahrosa & TEOS Egypt**  
 Not for public use. Not open source.
+Permission is granted only to partner banks and institutions under direct agreement with TEOS Egypt.  
+Redistribution, modification, or public disclosure is strictly prohibited.  
 
 **Direct Contact:**
 
