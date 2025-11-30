@@ -48,6 +48,7 @@ def test_health():
 TST
 
 # GitHub Actions CI workflow
+mkdir -p .github/workflows
 cat > .github/workflows/ci.yml <<'YML'
 name: CI
 
