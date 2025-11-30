@@ -1,11 +1,4 @@
 #!/usr/bin/env bash
-# Safety: require clean working tree
-if [ -n "$(git status --porcelain)" ]; then
-  echo "Please commit or stash changes before running this script."
-  exit 1
-fi
-
-#!/usr/bin/env bash
 set -euo pipefail
 
 BRANCH="scaffold/backend-health"
@@ -55,7 +48,6 @@ def test_health():
 TST
 
 # GitHub Actions CI workflow
-mkdir -p .github/workflows
 cat > .github/workflows/ci.yml <<'YML'
 name: CI
 
