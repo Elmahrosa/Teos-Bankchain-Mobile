@@ -1,6 +1,8 @@
 # TEOS BankChain Mobile 🚀
 **Bank-Facing Crypto Gateway App (Android + iOS)**
 
+![License](https://img.shields.io/badge/license-Proprietary%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)
+
 ---
 
 ## 📖 Overview
