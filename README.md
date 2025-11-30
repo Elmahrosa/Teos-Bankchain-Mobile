@@ -1,43 +1,59 @@
 # TEOS BankChain Mobile 🚀
-**Bank-Facing Crypto Gateway App (Android + iOS)**
 
-![License](https://img.shields.io/badge/license-Proprietary%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)
-# TEOS BankChain Mobile
+[![License](https://img.shields.io/badge/license-Proprietary%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)]()
+[![CI](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)]()
 
-![License](https://img.shields.io/badge/license-Proprietary%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)
-![CI](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)
+Bank-facing crypto ↔ fiat gateway for banks (Android + iOS).  
+Enables financial institutions to integrate blockchain services, manage crypto liquidity, and offer regulated crypto services while maintaining compliance.
+
+---
+
+## Table of contents
+- Modules
+- Overview
+- Architecture
+- Key features
+- Repo structure
+- Tech stack
+- Roadmap
+- Compliance
+- License
+- Contributing & security
+
+---
 
 ## Modules
-- `android/README.md` → Android app layout & next steps
-- `ios/README.md` → iOS app layout & next steps
-- `backend/README.md` → FastAPI backend layout & next steps
-- `blockchain/README.md` → Blockchain gateway layout & next steps
-- `compliance/README.md` → Compliance docs & next steps
+- `android/` — Android app (Kotlin)
+- `ios/` — iOS app (Swift)
+- `backend/` — API & conversion engine (FastAPI / Spring Boot)
+- `blockchain/` — Ethereum, Pi, Bitcoin connectors
+- `compliance/` — KYC/AML + monitoring and reporting
+- `docs/` — Project docs (structure, API guide, compliance)
+- `.github/` — CI/CD, templates, automation
 
 ---
 
-## 📖 Overview
-TEOS BankChain Mobile is a **crypto-fiat gateway for banks**, built to run on Android and iOS.  
-It enables financial institutions to integrate blockchain into their operations, manage crypto liquidity, and offer crypto services to customers—all while maintaining full compliance.
+## Overview
+TEOS BankChain Mobile is a regulated, enterprise-grade gateway that connects banks and financial institutions to blockchain networks. It provides secure custodial wallets, fiat/crypto conversion, compliance tooling, and production-ready integrations for on-premise or cloud deployments.
 
 ---
 
-## 🏗️ Architecture
-- **Mobile Apps (Android/iOS)** → Secure apps for bank staff and customers.
-- **Backend API** → Conversion engine, liquidity management, Open Banking integration.
-- **Blockchain Gateway** → Ethereum, Pi Network, Bitcoin connectors.
-- **Compliance Layer** → KYC/AML verification, transaction monitoring, regulatory reporting.
+## Architecture
+- Mobile apps (Android / iOS): secure native clients for staff and customers.  
+- Backend API: conversion engine, liquidity & settlement, Open Banking adapters.  
+- Blockchain Gateway: connectors for Ethereum, Pi Network, Bitcoin (and stablecoins).  
+- Compliance Layer: KYC/AML, monitoring, audit trail and regulator reporting.
 
 ---
 
-## 🔐 Key Features
-- Native Android (Kotlin) and iOS (Swift) apps.  
-- Secure custodial wallet management (multi-signature).  
-- End-to-end encryption for all transactions.  
+## Key features
+- Native Android (Kotlin + Jetpack Compose) and iOS (Swift + SwiftUI) apps.  
+- Secure custodial wallets with multi-signature support.  
+- End-to-end encryption for sensitive data and transactions.  
 - Fiat ↔ Crypto conversion engine with stablecoin support (USDT, USDC).  
-- Open Banking API integration (PSD2, SWIFT, SEPA).  
-- Real-time compliance monitoring.  
-- Cloud-native deployment (AWS, Azure, or on-premise).  
+- Open Banking integrations (PSD2, SWIFT, SEPA where applicable).  
+- Real-time compliance monitoring and audit logs.  
+- Deployable to AWS, Azure, or on-premise environments.
 
 ---
 
@@ -58,6 +74,41 @@ teos-bankchain-mobile/
 ├── ROADMAP.md      # Feature rollout plan
 └── LICENSE         # Private license
 ```
+
+## Tech stack (examples)
+- Android: Kotlin, Jetpack Compose, Web3j (or equivalent)
+- iOS: Swift, SwiftUI, WalletConnect SDK
+- Backend: FastAPI (Python) or Spring Boot (Java)
+- Blockchain: ethers.js / web3.js, Pi SDK, Bitcoin RPC
+- Compliance: Chainalysis, TRM Labs (or equivalent)
+- CI/CD: GitHub Actions + Docker
+
+---
+
+## Roadmap (high level)
+1. Scaffold native mobile apps (Android + iOS).  
+2. Implement backend conversion engine and core APIs.  
+3. Integrate blockchain gateways (Ethereum, Pi, Bitcoin).  
+4. Add compliance monitoring and reporting modules.  
+5. Deploy sandbox environment for bank testing.  
+6. Package and offer as B2B SaaS for institutional rollout.
+
+---
+
+## Compliance & security
+Designed with "regulatory-first" principles:
+- KYC/AML enforcement and onboarding.  
+- Transaction monitoring, alerting, and case management.  
+- Immutable audit logs for regulator review.  
+- Follow OWASP Mobile Top 10 and secure supply-chain practices.
+
+See SECURITY.md for disclosure and reporting procedures.
+
+---
+
+## Contributing
+Please see CONTRIBUTING.md for development workflow, branch naming, and PR expectations.  
+Use issue and PR templates in `.github/` to streamline reviews.
 
 ---
 
@@ -88,13 +139,9 @@ TEOS BankChain Mobile is designed with **regulatory-first principles**:
 - Audit logs for regulators.  
 
 ---
-
-## 📜 License
-Private repository. All rights reserved © TEOS Egypt.
-Unauthorized use, distribution, or reproduction is prohibited.
-```
-
+## License
+This repository is private and distributed under a proprietary license.  
+All rights reserved © Elmahrosa International & TEOS Egypt.  
+Unauthorized use, distribution, modification, or reproduction is prohibited.  
+See LICENSE for full terms.
 ---
-
-⚡ This README sets the foundation for your repo: **mobile-first, bank-facing, compliance-ready**.  
-Do you want me to also draft the **`STRUCTURE.md`** file next, so contributors instantly understand the layout and onboarding flow?
