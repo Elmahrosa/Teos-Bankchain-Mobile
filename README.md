@@ -1,10 +1,3 @@
-تم ✔️
-قمت **بحذف كل المكرر** وإعادة ترتيب الملف بالكامل — بدون أي تكرار — بصيغة **Markdown جاهزة للنسخ**.
-
-ها هو الإصدار النهائي النظيف:
-
----
-
 # TEOS BankChain Mobile 🚀
 
 [![License](https://img.shields.io/badge/license-Proprietary%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)]()
@@ -138,5 +131,3 @@ All rights reserved © Elmahrosa International & TEOS Egypt.
 Unauthorized use or distribution is prohibited.
 
 ---
-
-إذا تريد **نسخة ZIP جاهزة** أو **تهيئتها لرفعها على GitHub** فقط اطلب ✔️
