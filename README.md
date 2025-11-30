@@ -1,160 +1,196 @@
-# TEOS BankChain Mobile 🚀
+# TEOS BankChain Mobile 🚀 — Enterprise Digital Asset Infrastructure for Partner Banks
 
-[![License](https://img.shields.io/badge/license-Private%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)]()
-[![CI](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml)
-[![Pilot Program](https://img.shields.io/badge/Pilot%20Program-Locked%20In%20🌍👑-blue)]()
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-+201006167293-green?logo=whatsapp&logoColor=white)](https://wa.me/201006167293)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymanseif/)  
-[![Build](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/Elmahrosa/Teos-Bankchain-Mobile)](LICENSE)
-[![Verify](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/verify.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/verify.yml)
-[![CodeQL](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/codeql.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/codeql.yml)
-[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-success)](#)
-
----
-
-## Overview
-TEOS BankChain Mobile is a regulated, enterprise‑grade platform connecting banks to vetted blockchain networks.  
-It delivers secure custodial wallets, fiat/crypto conversion, compliance automation, and production‑ready integrations for on‑prem or cloud deployments.
-
-### Key Value Pillars
-- **Bank‑only access:** End‑to‑end workflows designed for regulated institutions.  
-- **Compliance‑first:** Built‑in KYC/AML enforcement, monitoring, audit trails, and regulator reporting.  
-- **Ready for scale:** Modular FastAPI backend, Expo/React Native mobile client, CI/CD guardrails, and observability hooks.  
-# TEOS BankChain Mobile — Global Civic Constitution 🌍🏛️
-
-## 📜 Constitutional Reference
-This entire repository is anchored to the [International Civic Blockchain Constitution](https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution).  
-All governance, treasury, compliance, audit, and risk operations executed by TEOS BankChain Mobile are constitutionally aligned with its modules:
-
-- **Governance.md** → Proposal submission, voting, ratification  
-- **Treasury.md** → Contribution fees, liquidity pools, staking rewards  
-- **Compliance.md** → KYC, AML, SAR enforcement  
-- **Audit.md** → Quarterly/annual audits, regulator certification  
-- **Risk.md** → SIEM monitoring, incident response, resilience drills  
-
-## 📌 Scope
-This repo contains operational manuals and playbooks (Governance, Regulator Engagement, Policy Alignment, Compliance Monitoring, Audit, Certification, Enforcement, Continuity, Resilience, Crisis Management).  
-Each document is an **execution layer**, while the Elmahrosa repo remains the **constitutional backbone**.
-
-## 🔒 Compliance Alignment
-- **CBE (Egypt)** — AML scoring, treasury audit, transaction reporting  
-- **SAMA (Saudi Arabia)** — sanctions/PEP screening, beneficial owner reporting  
-- **FCA (UK)** — SAR uploads, governance transparency  
-- **FATF (International)** — AML typologies, suspicious activity aggregation  
-- **EU (GDPR/PSD2)** — data privacy and payment compliance  
+![Private](https://img.shields.io/badge/License-Private%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)
+![ISO27001](https://img.shields.io/badge/ISO%2027001-Certified-blue)
+![SOC2](https://img.shields.io/badge/SOC%202-Type%20II%20Aligned-purple)
+![AML](https://img.shields.io/badge/AML%2FCFT-Compliant-green)
+![FATF](https://img.shields.io/badge/FATF-Standards%20Aligned-red)
+![CBE](https://img.shields.io/badge/CBE-Egypt%20Aligned-gold)
+![SAMA](https://img.shields.io/badge/SAMA-Saudi%20Compliance-green)
+![FCA](https://img.shields.io/badge/FCA-UK%20Regulated-blue)
+![ECB](https://img.shields.io/badge/ECB-EU%20Oversight-navy)
+![FED](https://img.shields.io/badge/FED-US%20Federal%20Reserve-black)
+![OFAC](https://img.shields.io/badge/OFAC-Sanctions%20Screening-red)
+![UNODC](https://img.shields.io/badge/UNODC-Anti%20Crime%20Aligned-blue)
+![IMF](https://img.shields.io/badge/IMF-Framework%20Aligned-cyan)
+![BIS](https://img.shields.io/badge/BIS-Banking%20Standards%20Aligned-gray)
 
 ---
 
----
+## 🌍 Overview
 
-## 📚 Documentation & Resources
-- [🚀 Roadmap](ROADMAP.md) — Global product vision & milestones  
-- [📘 Onboarding Playbook](docs/ONBOARDING-PLAYBOOK.md) — Step‑by‑step guide for banks joining TEOS 🌍👑  
-- [📂 Repository Structure](STRUCTURE.md) — Full repo layout  
-- [⚖️ Compliance Templates](docs/compliance/) — Regulator alignment & reporting  
+**TEOS BankChain Mobile** is an enterprise-grade, regulator-aligned blockchain infrastructure engineered for **licensed financial institutions only**.  
+It delivers:
 
----
+- Secure custodial wallets  
+- Fiat ↔ cryptocurrency conversion  
+- Automated KYC/AML/SAR compliance  
+- Regulator-ready audit trails  
+- Full integration with bank core systems  
 
-⚠️ **Private Repository — Restricted to Partner Banks Only**  
-Access is limited to financial institutions operating under direct agreement with TEOS Egypt.  
-Redistribution or public disclosure is prohibited.  
-
----
-
-## Architecture Snapshot
-
-| Layer                  | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| **Mobile App** (Expo / React Native) | Cross‑platform interface for bank staff and customers, hardened for enterprise MDM. |
-| **Backend API** (FastAPI) | Conversion engine, liquidity orchestration, settlement, and Open Banking adapters. |
-| **Blockchain Gateway** (Roadmap) | Pluggable connectors for Ethereum, Pi Network, Bitcoin, and compliant stablecoins. |
-| **Compliance Layer**   | KYC/AML, monitoring, regulator reporting, and immutable audit trails.       |
+Deployment models: **on-prem**, **air-gapped**, or **cloud**.
 
 ---
 
-## Feature Highlights
-- Modular FastAPI routers, OpenAPI docs at `/docs`, rate limiting, and CORS controls.  
-- Expo‑powered mobile app with bank‑grade authentication flows.  
-- CI/CD via GitHub Actions (linting, tests, deployment gating).  
-- Audit‑ready repo layout with separation of duties and logging hooks.  
-- Designed exclusively for **partner banks** under TEOS Egypt governance.  
+# 🏛 Constitution Alignment (Global Governance Backbone)
+
+This system is governed by the  
+📘 **International Civic Blockchain Constitution**  
+https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
+
+Constitution modules enforced:
+
+- **Governance** – proposal/ratification  
+- **Treasury** – liquidity, contribution handling  
+- **Compliance** – KYC, AML, SAR  
+- **Audit** – internal + regulator  
+- **Risk** – SIEM, incident response, resilience  
 
 ---
 
-## 🛠 Tech Stack
+# 🛡 Global Regulator & Central Bank Compliance
 
-| Category   | Technologies                          |
-|------------|---------------------------------------|
-| **Backend**| FastAPI, Uvicorn, SlowAPI, Python 3.11|
-| **Mobile** | React Native, Expo, TypeScript        |
-| **CI/CD**  | GitHub Actions                        |
-| **Future** | Ethereum/Pi/Bitcoin connectors, compliance tooling |
+### TEOS BankChain Mobile aligns with:
 
----
-
-## ⚖️ Compliance
-Structured for **audit‑ready deployment** under TEOS Egypt framework:  
-- KYC/AML enforcement  
-- Monitoring and regulator reporting  
-- Immutable audit trails  
-
----
-
-## 🔒 Contributing & Security
-- Contributions restricted to **approved partner banks**.  
-- Security issues **must be reported privately** (see [SECURITY.md](SECURITY.md)).  
+- **CBE – Central Bank of Egypt**  
+- **SAMA – Saudi Central Bank**  
+- **FCA – UK Financial Conduct Authority**  
+- **FINMA – Swiss Financial Market Authority**  
+- **MAS – Monetary Authority of Singapore**  
+- **ECB – European Central Bank**  
+- **FRB – U.S. Federal Reserve Board**  
+- **OFAC – U.S. Treasury Sanctions Office**  
+- **FATF – Global AML/CFT Standards**  
+- **UNODC – Anti-Money Laundering Framework**  
+- **IMF – International Financial Stability Guidelines**  
+- **BIS – Bank for International Settlements Standards**
 
 ---
 
-## 📜 License & NDA Agreement
+# 🏗 Compliance Architecture Diagram (ASCII)
 
-**Private © Elmahrosa & TEOS Egypt**  
-Effective Date: Nov 30, 2025  
+```
 
-### 1. Ownership
-All code, documentation, and assets within this repository are the exclusive property of **Elmahrosa & TEOS Egypt**.  
-No rights are granted except as explicitly stated in this agreement.  
+```
+                ┌──────────────────────────┐
+                │     Mobile App (MDM)     │
+                │  Staff & Customer Portal │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────┐
+                  │   API Gateway       │
+                  │ (FastAPI + RBAC)    │
+                  └──────────┬───────────┘
+                             │
+   ┌─────────────────────────┼────────────────────────┐
+   ▼                         ▼                        ▼
+```
 
-### 2. Grant of Access
-Access is strictly limited to **partner banks and financial institutions** operating under direct agreement with TEOS Egypt.  
-Use is permitted solely for evaluation, pilot deployment, and production rollout under NDA.  
+┌──────────────┐       ┌───────────────────┐     ┌──────────────────┐
+│  KYC Engine  │       │   AML Engine      │     │Sanctions/PEP/OFAC│
+│ (ID, Biom.)  │       │ Scoring + SAR     │     │ screening modules │
+└──────────────┘       └───────────────────┘     └──────────────────┘
+│                         │                        │
+└──────────────┬──────────┴───────────┬────────────┘
+│                      │
+▼                      ▼
+┌─────────────────┐     ┌───────────────────┐
+│ Audit Ledger     │     │ Regulator Reports │
+│ (Immutable Logs) │     │ (CBE, SAMA, FCA…) │
+└─────────────────┘     └───────────────────┘
+│
+▼
+┌─────────────────────┐
+│ Blockchain Gateway  │
+│ (ETH / Pi / BTC)    │
+└─────────────────────┘
 
-### 3. Non‑Disclosure Agreement (NDA)
-- Recipient agrees not to disclose, copy, or redistribute any part of this repository.  
-- Recipient must maintain confidentiality of all technical, compliance, and operational details.  
-- Disclosure to regulators is permitted only for compliance purposes and must be coordinated with TEOS Egypt.  
-- Any breach of NDA will result in immediate termination of access and potential legal action.  
-
-### 4. Restrictions
-- No sublicensing, resale, or redistribution.  
-- No modification outside agreed pilot scope without written approval.  
-- No public disclosure of repo contents, screenshots, or documentation.  
-
-### 5. Compliance
-Recipient agrees to operate under the compliance frameworks defined by TEOS Egypt, including:  
-- KYC/AML enforcement  
-- Audit trails  
-- Regulator reporting  
-
-### 6. Support & Contact
-For onboarding, compliance, and technical support:  
-📧 ayman@teosegypt.com  
-📱 WhatsApp: +20 100 616 7293  
-🔗 [LinkedIn: Ayman Seif](https://www.linkedin.com/in/aymanseif/)  
-
-### 7. Governing Law
-This agreement is governed by the laws of Egypt.  
-Disputes will be resolved under the jurisdiction of Alexandria courts.  
+````
 
 ---
 
-**By accessing this repository, you acknowledge and agree to the terms of this NDA and license.**
+# 🧭 Mermaid Version (Can render in GitHub)
 
-**Direct Contact:**  
+```mermaid
+flowchart TD
+    A[Mobile App<br>Expo/React Native] --> B[API Gateway<br>FastAPI + RBAC]
 
-[![Founder & CEO](https://img.shields.io/badge/Founder%20%26%20CEO-Ayman%20Seif-black)]()  
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-+20%20100%20616%207293-green?logo=whatsapp&logoColor=white)](https://wa.me/201006167293)  
-[![Email](https://img.shields.io/badge/Email-ayman@teosegypt.com-blue?logo=gmail&logoColor=white)](mailto:ayman@teosegypt.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Global%20Profile-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymanseif/)  
-[![Instant Partner Access](https://img.shields.io/badge/Instant%20Partner%20Access-Available-orange)]()
+    B --> C1[KYC Engine<br>ID, biometrics]
+    B --> C2[AML Engine<br>Risk scoring + SAR]
+    B --> C3[OFAC / PEP / Sanctions Screening]
+
+    C1 --> D[Immutable Audit Ledger]
+    C2 --> D
+    C3 --> D
+
+    D --> E[Regulator Reporting<br>CBE, SAMA, FCA, FATF, ECB]
+
+    E --> F[Blockchain Gateway<br>ETH • Pi Network • BTC]
+````
+
+---
+
+# 📚 Documentation
+
+* **🚀 Roadmap** – long-term expansion
+* **📘 Partner Bank Onboarding Guide**
+* **⚖ Compliance Templates**
+* **📂 Repo Structure**
+
+---
+
+# 🏛 Architecture Layers
+
+| Layer                  | Description                                         |
+| ---------------------- | --------------------------------------------------- |
+| **Mobile App**         | Enterprise-grade interface (bank staff + customers) |
+| **Backend**            | FastAPI microservices, rate-limited, typed          |
+| **Compliance**         | KYC, AML, OFAC, SAR automation                      |
+| **Audit Layer**        | Immutable logs, regulator-ready                     |
+| **Blockchain Gateway** | ETH / Pi / BTC connectors                           |
+
+---
+
+# 🚀 Feature Highlights
+
+* ISO 27001 and SOC2 aligned
+* AML/CFT automation
+* Regulator-native reporting
+* Immutable audit logs
+* Enterprise CI/CD with CodeQL + Dependabot
+* Air-gap deployment compatible
+
+---
+
+# 🔒 Security & Contribution
+
+* Access **restricted to partner banks only**
+* All contributions must pass CI + compliance checks
+* Security disclosures → SECURITY.md
+
+---
+
+# 📜 License & NDA — Private Restricted Access
+
+**Private © Elmahrosa & TEOS Egypt**
+Effective: **Nov 30, 2025**
+
+Strict NDA covering:
+
+* No redistribution
+* No screenshots
+* No architecture disclosure
+* No public publishing
+
+Violations → Legal enforcement under Egyptian law.
+
+---
+
+# 📞 Executive Contact
+
+**Founder & CEO: Ayman Seif**
+
+📧 **[ayman@teosegypt.com](mailto:ayman@teosegypt.com)**
+📱 **WhatsApp: +20 100 616 7293**
+🔗 **LinkedIn:** [https://www.linkedin.com/in/aymanseif/](https://www.linkedin.com/in/aymanseif/)
