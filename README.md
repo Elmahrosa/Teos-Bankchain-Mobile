@@ -8,6 +8,16 @@
 [![Build](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/Elmahrosa/Teos-Bankchain-Mobile/actions)
 [![License](https://img.shields.io/github/license/Elmahrosa/Teos-Bankchain-Mobile)](LICENSE)
 
+## Overview
+TEOS BankChain Mobile is a regulated, enterprise-grade platform connecting banks to vetted blockchain networks.  
+It delivers secure custodial wallets, fiat/crypto conversion, compliance automation, and production-ready integrations for on-prem or cloud deployments.
+
+### Key Value Pillars
+- **Bank-only access:** End-to-end workflows designed for regulated institutions.
+- **Compliance-first:** Built-in KYC/AML enforcement, monitoring, audit trails, and regulator reporting.
+- **Ready for scale:** Modular FastAPI backend, Expo/React Native mobile client, CI/CD guardrails, and observability hooks.
+
+---
 ## 📚 Documentation & Resources
 
 - [🚀 Roadmap](ROADMAP.md) — Global product vision & milestones  
@@ -23,16 +33,6 @@ Redistribution or public disclosure is prohibited.
 
 ---
 
-## Overview
-TEOS BankChain Mobile is a regulated, enterprise-grade platform connecting banks to vetted blockchain networks.  
-It delivers secure custodial wallets, fiat/crypto conversion, compliance automation, and production-ready integrations for on-prem or cloud deployments.
-
-### Key Value Pillars
-- **Bank-only access:** End-to-end workflows designed for regulated institutions.
-- **Compliance-first:** Built-in KYC/AML enforcement, monitoring, audit trails, and regulator reporting.
-- **Ready for scale:** Modular FastAPI backend, Expo/React Native mobile client, CI/CD guardrails, and observability hooks.
-
----
 
 ## Architecture Snapshot
 
