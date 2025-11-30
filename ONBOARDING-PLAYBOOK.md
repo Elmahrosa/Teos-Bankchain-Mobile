@@ -36,9 +36,9 @@
 👉 **Turnkey & Scalable** — Instant adoption.
 
 ## 🔑 4. First-Mover Advantage
-1. **Q1 2026 Pilot Program**: 3–5 banks onboard, showcase compliance wins.
-2. **Case Studies**: Regulator approvals, liquidity, adoption proof.
-3. **Compliance Vendor Partnerships**: Chainalysis, TRM Labs — instant credibility.
+1. **Q1 2026 Pilot Program**: 3–5 banks onboard, showcase compliance wins.  
+2. **Case Studies**: Regulator approvals, liquidity, adoption proof.  
+3. **Compliance Vendor Partnerships**: Chainalysis, TRM Labs — instant credibility.  
 
 👉 **Regulators endorse → Banks follow → TEOS = Default Gateway**.
 
@@ -68,21 +68,8 @@
 
 ---
 
-## 🎯 Why Banks **Must** Join Through TEOS
-- **Compliance-First**: Pre-vetted by regulators — zero fines, full trust.
-- **Turnkey Architecture**: Deploy in weeks, not years.
-- **White-Label Ready**: Your brand, our secure engine.
-- **Evergreen Support**: Adapts to regs/tech — future-proof.
+## 🔎 Visual Onboarding Flow
 
-**TEOS = Banks' Blockchain On-Ramp. No Alternatives.**
-
----
-
-## 🔗 Resources & Next Steps
-- [ROADMAP.md](../ROADMAP.md)
-- [Backend Docs](./backend/)
-- [Compliance Templates](./compliance/)
-- **Contacts:** onboarding@teosegypt.com | support@elmahrosa.com | +20-XXX-XXXXXXX
-- **Slack Channel:** #bank-onboarding (invite-only)
-
-**Ready to Onboard? Reply "PILOT" for instant access.**
+```text
+Access & Agreement ──► Compliance Setup ──► Technical Deployment ──► Mobile Rollout ──► Blockchain Activation ──► Evergreen Support
+        NDA/licensing        KYC/AML configs        Backend + mobile install        White-label launch        Ethereum/Pi/Bitcoin        CI/CD + SLA
