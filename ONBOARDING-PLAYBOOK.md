@@ -73,3 +73,23 @@
 ```text
 Access & Agreement ──► Compliance Setup ──► Technical Deployment ──► Mobile Rollout ──► Blockchain Activation ──► Evergreen Support
         NDA/licensing        KYC/AML configs        Backend + mobile install        White-label launch        Ethereum/Pi/Bitcoin        CI/CD + SLA
+```
+
+---
+
+## 🎯 Why Banks **Must** Join Through TEOS
+- **Compliance-First**: Pre-vetted by regulators — zero fines, full trust.  
+- **Turnkey Architecture**: Deploy in weeks, not years.  
+- **White-Label Ready**: Your brand, our secure engine.  
+- **Evergreen Support**: Adapts to regs/tech — future-proof.  
+
+**TEOS = Banks' Blockchain On-Ramp. No Alternatives.**
+
+---
+
+## 🔗 Resources & Next Steps
+- [ROADMAP.md](../ROADMAP.md)  
+- [Backend Docs](./backend/)  
+- [Compliance Templates](./compliance/)  
+- **Contacts:** ayman@teosegypt.com | +201006167293  
+- **Slack Channel:** #bank-onboarding (invite-only)  
