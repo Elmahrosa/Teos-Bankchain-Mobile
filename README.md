@@ -21,6 +21,30 @@ It delivers secure custodial wallets, fiat/crypto conversion, compliance automat
 - **Bank‑only access:** End‑to‑end workflows designed for regulated institutions.  
 - **Compliance‑first:** Built‑in KYC/AML enforcement, monitoring, audit trails, and regulator reporting.  
 - **Ready for scale:** Modular FastAPI backend, Expo/React Native mobile client, CI/CD guardrails, and observability hooks.  
+# TEOS BankChain Mobile — Global Civic Constitution 🌍🏛️
+
+## 📜 Constitutional Reference
+This entire repository is anchored to the [International Civic Blockchain Constitution](https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution).  
+All governance, treasury, compliance, audit, and risk operations executed by TEOS BankChain Mobile are constitutionally aligned with its modules:
+
+- **Governance.md** → Proposal submission, voting, ratification  
+- **Treasury.md** → Contribution fees, liquidity pools, staking rewards  
+- **Compliance.md** → KYC, AML, SAR enforcement  
+- **Audit.md** → Quarterly/annual audits, regulator certification  
+- **Risk.md** → SIEM monitoring, incident response, resilience drills  
+
+## 📌 Scope
+This repo contains operational manuals and playbooks (Governance, Regulator Engagement, Policy Alignment, Compliance Monitoring, Audit, Certification, Enforcement, Continuity, Resilience, Crisis Management).  
+Each document is an **execution layer**, while the Elmahrosa repo remains the **constitutional backbone**.
+
+## 🔒 Compliance Alignment
+- **CBE (Egypt)** — AML scoring, treasury audit, transaction reporting  
+- **SAMA (Saudi Arabia)** — sanctions/PEP screening, beneficial owner reporting  
+- **FCA (UK)** — SAR uploads, governance transparency  
+- **FATF (International)** — AML typologies, suspicious activity aggregation  
+- **EU (GDPR/PSD2)** — data privacy and payment compliance  
+
+---
 
 ---
 
