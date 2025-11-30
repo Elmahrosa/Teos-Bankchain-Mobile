@@ -44,6 +44,12 @@ It delivers secure custodial wallets, fiat/crypto conversion, compliance automat
 - CI/CD via GitHub Actions (linting, tests, deployment gating).
 - Audit-ready repo layout with separation of duties and logging hooks.
 - Designed exclusively for **partner banks** under TEOS Egypt governance.
+- 
+## 📁 Repository Resources
+
+- [STRUCTURE.md](STRUCTURE.md) — Full repo layout  
+- [ROADMAP.md](ROADMAP.md) — Global product vision & milestones  
+- [ONBOARDING-PLAYBOOK.md](docs/ONBOARDING-PLAYBOOK.md) — Step-by-step guide for banks joining TEOS 🌍👑  
 
 ### 📂 Repository Structure  
 See full layout in [`STRUCTURE.md`](STRUCTURE.md)
