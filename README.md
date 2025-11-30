@@ -19,9 +19,9 @@
 
 ## 🌍 Overview
 
-**TEOS BankChain Mobile** is an enterprise-grade, regulator-aligned blockchain infrastructure engineered for **licensed financial institutions only**.  
-It delivers:
+**TEOS BankChain Mobile** is an enterprise-grade, regulator-aligned blockchain infrastructure for **licensed financial institutions only**.  
 
+Features:
 - Secure custodial wallets  
 - Fiat ↔ cryptocurrency conversion  
 - Automated KYC/AML/SAR compliance  
@@ -32,14 +32,12 @@ Deployment models: **on-prem**, **air-gapped**, or **cloud**.
 
 ---
 
-# 🏛 Constitution Alignment (Global Governance Backbone)
+## 🏛 Constitution Alignment (Global Governance Backbone)
 
-This system is governed by the  
-📘 **International Civic Blockchain Constitution**  
+Anchored to the 📘 **International Civic Blockchain Constitution**:  
 https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
 
-Constitution modules enforced:
-
+Modules enforced:
 - **Governance** – proposal/ratification  
 - **Treasury** – liquidity, contribution handling  
 - **Compliance** – KYC, AML, SAR  
@@ -48,10 +46,9 @@ Constitution modules enforced:
 
 ---
 
-# 🛡 Global Regulator & Central Bank Compliance
+## 🛡 Global Regulator & Central Bank Compliance
 
-### TEOS BankChain Mobile aligns with:
-
+Aligned with:
 - **CBE – Central Bank of Egypt**  
 - **SAMA – Saudi Central Bank**  
 - **FCA – UK Financial Conduct Authority**  
@@ -67,33 +64,28 @@ Constitution modules enforced:
 
 ---
 
-# 🏗 Compliance Architecture Diagram (ASCII)
+## 🏗 Compliance Architecture Diagram (ASCII)
 
 ```
-
-```
-                ┌──────────────────────────┐
-                │     Mobile App (MDM)     │
-                │  Staff & Customer Portal │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-                  ┌─────────────────────┐
-                  │   API Gateway       │
-                  │ (FastAPI + RBAC)    │
-                  └──────────┬───────────┘
-                             │
-   ┌─────────────────────────┼────────────────────────┐
-   ▼                         ▼                        ▼
-```
-
+            ┌──────────────────────────┐
+            │     Mobile App (MDM)     │
+            │  Staff & Customer Portal │
+            └─────────────┬────────────┘
+                          │
+                          ▼
+              ┌─────────────────────┐
+              │   API Gateway       │
+              │ (FastAPI + RBAC)    │
+              └──────────┬───────────┘
+                         │
+┌────────────────────────┼────────────────────────┐
+▼                        ▼                        ▼
 ┌──────────────┐       ┌───────────────────┐     ┌──────────────────┐
 │  KYC Engine  │       │   AML Engine      │     │Sanctions/PEP/OFAC│
 │ (ID, Biom.)  │       │ Scoring + SAR     │     │ screening modules │
 └──────────────┘       └───────────────────┘     └──────────────────┘
 │                         │                        │
 └──────────────┬──────────┴───────────┬────────────┘
-│                      │
 ▼                      ▼
 ┌─────────────────┐     ┌───────────────────┐
 │ Audit Ledger     │     │ Regulator Reports │
@@ -105,85 +97,108 @@ Constitution modules enforced:
 │ Blockchain Gateway  │
 │ (ETH / Pi / BTC)    │
 └─────────────────────┘
-
-````
+```
 
 ---
 
-# 🧭 Mermaid Version (Can render in GitHub)
+## 🧭 Mermaid Version
 
 ```mermaid
 flowchart TD
     A[Mobile App<br>Expo/React Native] --> B[API Gateway<br>FastAPI + RBAC]
-
     B --> C1[KYC Engine<br>ID, biometrics]
     B --> C2[AML Engine<br>Risk scoring + SAR]
     B --> C3[OFAC / PEP / Sanctions Screening]
-
     C1 --> D[Immutable Audit Ledger]
     C2 --> D
     C3 --> D
-
     D --> E[Regulator Reporting<br>CBE, SAMA, FCA, FATF, ECB]
-
     E --> F[Blockchain Gateway<br>ETH • Pi Network • BTC]
-````
+```
 
 ---
 
-# 📚 Documentation
+## 🛠 Tech Stack
 
-* **🚀 Roadmap** – long-term expansion
-* **📘 Partner Bank Onboarding Guide**
-* **⚖ Compliance Templates**
-* **📂 Repo Structure**
-
----
-
-# 🏛 Architecture Layers
-
-| Layer                  | Description                                         |
-| ---------------------- | --------------------------------------------------- |
-| **Mobile App**         | Enterprise-grade interface (bank staff + customers) |
-| **Backend**            | FastAPI microservices, rate-limited, typed          |
-| **Compliance**         | KYC, AML, OFAC, SAR automation                      |
-| **Audit Layer**        | Immutable logs, regulator-ready                     |
-| **Blockchain Gateway** | ETH / Pi / BTC connectors                           |
+| Category    | Technologies                                  |
+| ----------- | --------------------------------------------- |
+| **Backend** | FastAPI, Uvicorn, Python 3.11                 |
+| **Mobile**  | React Native, Expo, TypeScript                |
+| **CI/CD**   | GitHub Actions, Dependabot, CodeQL            |
+| **Future**  | ETH / Pi / BTC connectors, compliance tooling |
 
 ---
 
-# 🚀 Feature Highlights
+## 🚀 Feature Highlights
 
-* ISO 27001 and SOC2 aligned
-* AML/CFT automation
-* Regulator-native reporting
-* Immutable audit logs
-* Enterprise CI/CD with CodeQL + Dependabot
-* Air-gap deployment compatible
-
----
-
-# 🔒 Security & Contribution
-
-* Access **restricted to partner banks only**
-* All contributions must pass CI + compliance checks
-* Security disclosures → SECURITY.md
+- ISO 27001 & SOC2 aligned  
+- AML/CFT automation  
+- Regulator-native reporting  
+- Immutable audit logs  
+- Enterprise CI/CD with CodeQL & Dependabot  
+- Air-gap deployment compatible  
 
 ---
 
-# 📜 License & NDA — Private Restricted Access
+## 🔒 Repository Hardening Dashboard
 
-**Private © Elmahrosa & TEOS Egypt**
+| Category                            | Status     |
+| ----------------------------------- | ---------- |
+| **Repository Governance**           | ⚠️ Partial |
+| **Code of Conduct**                 | ❌ Missing |
+| **Contributing Guidelines**         | ❌ Missing |
+| **Code Owners / Branch Protection** | ❌ Missing |
+| **Commit Signing / Traceability**   | ❌ Missing |
+| **Access Management**               | ⚠️ Partial |
+| **Security & Compliance**           | ⚠️ Partial |
+| **Secret Management**               | ⚠️ Partial |
+| **Secret Scanning**                 | ❌ Missing |
+| **Dependency Management**           | ⚠️ Partial |
+| **Static Analysis / SAST**          | ⚠️ Partial |
+| **Penetration Testing**             | ❌ Missing |
+| **Versioning & Release**            | ❌ Missing |
+| **Changelog**                       | ❌ Missing |
+| **Release Tags**                    | ❌ Missing |
+| **Deployment Notes**                | ⚠️ Partial |
+| **Testing & CI/CD**                 | ❌ Missing |
+| **Unit Tests**                      | ❌ Missing |
+| **Integration Tests**               | ❌ Missing |
+| **Security Tests**                  | ❌ Missing |
+| **CI Pipeline**                     | ⚠️ Partial |
+| **Code Coverage Reporting**         | ❌ Missing |
+| **Deployment & Infrastructure**     | ⚠️ Partial |
+| **Config Management**               | ⚠️ Partial |
+| **Infrastructure as Code**          | ❌ Missing |
+| **Logging & Monitoring**            | ⚠️ Partial |
+| **Backup & Recovery**               | ❌ Missing |
+| **Air-gapped Deployment**           | ⚠️ Partial |
+| **Compliance & Audit**              | ⚠️ Partial |
+| **Audit Trail**                     | ⚠️ Partial |
+| **Regulator Reporting**             | ⚠️ Partial |
+| **GDPR / PSD2 Compliance**          | ⚠️ Partial |
+| **Internal Policies**               | ⚠️ Partial |
+| **External Audit Readiness**        | ⚠️ Partial |
+| **Documentation & Knowledge**       | ⚠️ Partial |
+| **README Update**                   | ✅ Done |
+| **Architecture Diagrams**           | ✅ Done |
+| **Playbooks**                       | ⚠️ Partial |
+| **Repository Structure**            | ⚠️ Partial |
+| **Security Docs**                   | ✅ Done |
+| **Incident Response & Continuity**  | ❌ Missing |
+| **Disaster Recovery**               | ❌ Missing |
+| **Communication Plan**              | ❌ Missing |
+| **Resilience Testing**              | ❌ Missing |
+
+---
+
+## 📜 License & NDA — Private Restricted Access
+
+**Private © Elmahrosa & TEOS Egypt**  
 Effective: **Nov 30, 2025**
 
-Strict NDA covering:
-
-* No redistribution
-* No screenshots
-* No architecture disclosure
-* No public publishing
-
-Violations → Legal enforcement under Egyptian law.
+- Strict NDA covering code, architecture, badges  
+- No redistribution, screenshots, or public disclosure  
+- Violations → Legal enforcement under Egyptian law  
 
 ---
 
@@ -191,6 +206,8 @@ Violations → Legal enforcement under Egyptian law.
 
 **Founder & CEO: Ayman Seif**
 
-📧 **[ayman@teosegypt.com](mailto:ayman@teosegypt.com)**
-📱 **WhatsApp: +20 100 616 7293**
-🔗 **LinkedIn:** [https://www.linkedin.com/in/aymanseif/](https://www.linkedin.com/in/aymanseif/)
+📧 [ayman@teosegypt.com](mailto:ayman@teosegypt.com)
+📱 WhatsApp: +20 100 616 7293
+🔗 [LinkedIn](https://www.linkedin.com/in/aymanseif/)
+
+```
