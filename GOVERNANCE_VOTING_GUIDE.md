@@ -93,7 +93,7 @@ total_no_weight  = Σ(bank_vote_weight where vote == no)
 
 ## 📞 Contact
 **TEOS Egypt — Governance & Voting Team**  
-📧 governance@teos-egypt.internal *(private partner channel only)*  
+📧 governance@teosegypt.com *(private partner channel only)*  
 📱 WhatsApp: +20 100 616 7293  
 🔗 [LinkedIn: Ayman Seif](https://www.linkedin.com/in/aymanseif/)
 
