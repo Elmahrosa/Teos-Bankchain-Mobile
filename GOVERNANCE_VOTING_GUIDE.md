@@ -41,3 +41,64 @@ It covers **vote casting, tallying, enforcement, and compliance alignment** for 
   "nft_id": "NFT98765",
   "vote": "yes"
 }
+```
+
+- **Response Example:**
+```json
+{
+  "vote_id": "VOTE-20251201-0001",
+  "status": "recorded",
+  "timestamp": "2025-12-01T10:00:00Z"
+}
+```
+
+---
+
+## 📊 Tallying Votes
+- Votes weighted by **stake amount** linked to NFT.  
+- Formula:
+```
+total_yes_weight = Σ(bank_vote_weight where vote == yes)
+total_no_weight  = Σ(bank_vote_weight where vote == no)
+```
+- Decision threshold: **≥ 51% of total stake weight**.  
+- Results published via `/governance/results`.  
+
+---
+
+## ⚙️ Enforcement
+- Once threshold met:  
+  - Smart contract executes protocol upgrade or fee adjustment.  
+  - Immutable audit record created (`audit_id`).  
+  - Regulator reporting triggered if compliance impact detected.  
+
+---
+
+## 🔒 Compliance Integration
+- All votes logged with KYC‑verified bank IDs.  
+- AML checks enforced on treasury contributions linked to voting NFTs.  
+- Regulator exports available for governance decisions.  
+- Retention: 7 years (regulator), 10 years (sensitive governance artefacts).  
+
+---
+
+## 📑 Partner Bank Checklist
+- [ ] Mint NFT governance tokens.  
+- [ ] Verify vote weight matches staked amount.  
+- [ ] Cast votes via `/governance/vote`.  
+- [ ] Validate results via `/governance/results`.  
+- [ ] Confirm compliance export for regulator review.  
+
+---
+
+## 📞 Contact
+**TEOS Egypt — Governance & Voting Team**  
+📧 governance@teos-egypt.internal *(private partner channel only)*  
+📱 WhatsApp: +20 100 616 7293  
+🔗 [LinkedIn: Ayman Seif](https://www.linkedin.com/in/aymanseif/)
+
+---
+
+## 🔁 Change Log
+- `2025-12-01` — Initial scaffold for NFT governance voting
+```
