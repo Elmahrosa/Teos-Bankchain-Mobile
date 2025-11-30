@@ -1,76 +1,135 @@
-# Contributing Guidelines
+# 🏦 Contributing Guidelines — TEOS BankChain Mobile
 
 ⚠️ **Private Repository — Restricted to Partner Banks Only**  
-Access is limited to financial institutions operating under direct agreement with TEOS Egypt.  
-Public contributions are not accepted. Redistribution or disclosure is prohibited.
+Access is limited to financial institutions operating under direct agreement with **TEOS Egypt**.  
+Redistribution, copying, or public disclosure is strictly prohibited.
 
 ---
 
-## Contribution Workflow
+## 📌 Contribution Workflow
 
-1. **Authorization**
-   - Only approved bank developers with signed agreements may contribute.
-   - Ensure your access is provisioned through TEOS Egypt.
+### 1. Authorization
+- Only approved bank developers with signed agreements may contribute.  
+- Access must be provisioned through TEOS Egypt Security.
 
-2. **Branching**
-   - Work must be done in feature branches (`feature/<bank>-<module>`).
-   - Never commit directly to `main`.
+### 2. Branching Rules
+- All work MUST be done in a feature branch.  
+- Naming convention:
+  - `feature/<name>`
+  - `fix/<issue>`
+  - `hotfix/<critical>`
+- **Direct commits to `main` are prohibited.**
 
-3. **Commits**
-   - Use clear, audit‑friendly commit messages:
-     ```
-     [bank-id] module: short description
-     ```
-   - Do not include sensitive data, credentials, or regulator information.
+### 3. Pull Requests (PRs)
+- PRs can only target `develop` or approved integration branches.
+- Every PR must include:
+  - ✔️ Purpose & change summary  
+  - ✔️ Compliance notes (KYC/AML impact if any)  
+  - ✔️ Test coverage confirmation  
+- Direct merges to `main` are impossible due to branch protection.
 
-4. **Pull Requests**
-   - Submit PRs against `develop` branch.
-   - PRs must include:
-     - Linked issue or task ID
-     - Compliance notes (if applicable)
-     - Test coverage confirmation
+### 4. Status Checks (Required to Merge)
+All checks must pass before merging:
 
-5. **CI/CD**
-   - All PRs trigger GitHub Actions workflows:
-     - Linting
-     - Unit tests (`pytest` for backend, `npm test` for mobile)
-     - Security scans
-   - PRs failing CI/CD checks will not be merged.
-
----
-
-## Security & Compliance
-
-- Follow **least privilege** principles when accessing repo modules.
-- Ensure **audit logs** are preserved for all development activity.
-- Never commit secrets, credentials, or sensitive data.
-- All code must pass compliance review before deployment.
+- ✅ `verify.yml` — documentation, links, secrets validation  
+- ✅ `ci.yml` — backend + mobile tests  
+- ✅ `codeql.yml` — security scanning (bank-grade)  
+- ✔️ Signed commits  
+- ✔️ Linear history (no merge commits)  
 
 ---
 
-## Code Style
+## 🔒 Branch Protection Rules (Compliance-Grade)
 
-- **Backend (FastAPI / Python):**
-  - PEP8 style guide
-  - Type hints required
-  - Tests in `backend/tests/`
+The `main` branch is locked with strict protections:
 
-- **Mobile (Expo / React Native):**
-  - ESLint + Prettier enforced
-  - Functional components preferred
-  - Tests in `mobile/__tests__/`
-
----
-
-## Reporting Issues
-
-- **Do not open public issues.**
-- Report bugs or vulnerabilities privately via TEOS Egypt’s secure channel.
-- Include reproduction steps, impact assessment, and suggested mitigation.
+- No direct pushes  
+- No force pushes  
+- Require approved Pull Requests  
+- Require:
+  - `verify`
+  - `ci`
+  - `codeql`
+- Require signed commits  
+- Require passing code scanning  
+- Require code-quality reports with **block on error**  
+- Only compliance-approved maintainers may bypass restrictions  
 
 ---
 
-## License
+## 🛡️ Security & Compliance Standards
 
-Private © Elmahrosa & TEOS Egypt  
-**Not for public use. Not open source.**
+- ❌ **Never commit secrets, tokens, API keys, bank credentials, or customer data.**  
+- ✔️ All development activity must maintain **full auditability**.  
+- ✔️ KYC/AML logic must remain intact in all flows.  
+- ✔️ Report vulnerabilities privately via **SECURITY.md**.  
+- 🔐 Use bank-approved devices and secure VPN connections.
+
+---
+
+## 🧭 Developer Best Practices
+
+- Run local tests before any PR submission:
+  ```bash
+  pytest
+  npm test
+````
+
+* Document compliance impact clearly in the PR description.
+* Use least-privilege access when interacting with internal systems.
+* Keep work isolated and avoid unnecessary modifications to core modules.
+
+---
+
+## 🧑‍💻 Code Style Guide
+
+### Backend — **FastAPI / Python**
+
+* Follow **PEP8**
+* Type hints required
+* Tests stored in:
+
+  ```
+  backend/tests/
+  ```
+
+### Mobile — **Expo / React Native**
+
+* ESLint + Prettier enforced
+* Functional components preferred
+* Tests stored in:
+
+  ```
+  mobile/__tests__/
+  ```
+
+---
+
+## 🐛 Reporting Issues
+
+⚠️ **Never open public issues.**
+All issue reporting must occur through private, secure TEOS Egypt channels.
+
+Include:
+
+* Steps to reproduce
+* Expected vs actual behavior
+* Security/compliance impact
+* Suggested fix (optional)
+
+---
+
+## 📞 Contact (Authorized Channels Only)
+
+**TEOS Egypt — Security & Governance Team**
+📧 Private bank communication channel
+📱 WhatsApp: **+20 100 616 7293**
+🔗 LinkedIn: [Ayman Seif](https://www.linkedin.com/in/aymanseif/)
+
+---
+
+## 🔐 License
+
+**Private © Elmahrosa & TEOS Egypt**
+Not open source. Not for public distribution.
+All rights reserved.
