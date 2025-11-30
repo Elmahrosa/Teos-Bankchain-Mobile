@@ -12,7 +12,11 @@ from .routers import push, push_register, payments
 limiter = Limiter(key_func=get_remote_address)
 
 # FastAPI app instance
-app = FastAPI(title="TEOS BankChain API", version="1.0.0")
+app = FastAPI(
+    title="TEOS BankChain API",
+    version="1.0.0",
+    description="Bank-facing crypto gateway with civic-first Web3 infrastructure"
+)
 app.state.limiter = limiter
 app.add_exception_handler(429, _rate_limit_exceeded_handler)
 
@@ -39,7 +43,7 @@ app.include_router(payments.router, prefix="/payments", tags=["payments"])
 def on_startup():
     init_db()
 
-# Health check endpoint
-@app.get("/health")
-def health():
-    return {"status": "healthy"}
+# NOTE:
+# No /health endpoint anymore.
+# Contributors should check http://127.0.0.1:8000/docs (Swagger UI)
+# or http://127.0.0.1:8000/redoc (ReDoc) for API documentation.
