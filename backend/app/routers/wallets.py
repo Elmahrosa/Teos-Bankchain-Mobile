@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, HTTPException, Depends
 from sqlmodel import Session, select
 from ..models import Wallet, User
 from ..schemas import WalletCreate, WalletRead
@@ -14,6 +14,12 @@ def create_wallet(payload: WalletCreate):
         session.commit()
         session.refresh(wallet)
         return wallet
+
+@router.get("/", response_model=list[WalletRead])
+def list_wallets():
+    with Session(engine) as session:
+        wallets = session.exec(select(Wallet)).all()
+        return wallets
 
 @router.get("/{wallet_id}", response_model=WalletRead)
 def get_wallet(wallet_id: int):

@@ -1,6 +1,15 @@
-* @Elmahrosa
-/backend/ @Elmahrosa
-/android/ @Elmahrosa
-/ios/ @Elmahrosa
-/blockchain/ @Elmahrosa
-/compliance/ @Elmahrosa
+# CODEOWNERS — Enforce reviews on critical areas
+
+/README.md            @ayman-seif @core-governance
+/CODE_OF_CONDUCT.md   @core-governance
+/CONTRIBUTING.md      @core-governance
+/CODEOWNERS           @core-governance
+/SECURITY.md          @core-security
+/REPO_HARDENING.md    @core-security
+
+/backend/             @core-backend @core-security
+/mobile/              @core-mobile @core-security
+/compliance/          @core-compliance @core-security
+/audit/               @core-audit @core-security
+/.github/             @core-platform @core-security
+/infra/               @core-platform @core-security

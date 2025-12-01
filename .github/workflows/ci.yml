@@ -1,21 +1,48 @@
-# .github/workflows/ci.yml
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
-  test:
+  build-test-sec:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install dependencies
+
+      - name: Install backend deps
         run: |
-          python -m pip install --upgrade pip
           pip install -r backend/requirements.txt
-      - name: Run tests
+          pip install pytest coverage flake8 bandit mypy
+
+      - name: Lint (flake8)
+        run: flake8 backend/src
+
+      - name: Type check (mypy)
+        run: mypy backend/src
+
+      - name: Security scan (Bandit)
+        run: bandit -r backend/src
+
+      - name: Tests + Coverage
         run: |
           pytest -q
+          coverage run -m pytest
+          coverage report -m
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: ./.coverage

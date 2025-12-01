@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, List
 from sqlmodel import SQLModel, Field, Relationship
 from datetime import datetime
 from pydantic import EmailStr
@@ -10,7 +10,7 @@ class UserBase(SQLModel):
 class User(UserBase, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     hashed_password: str
-    wallets: list["Wallet"] = Relationship(back_populates="owner")
+    wallets: List["Wallet"] = Relationship(back_populates="owner")
 
 class WalletBase(SQLModel):
     name: str
@@ -21,7 +21,7 @@ class Wallet(WalletBase, table=True):
     owner_id: Optional[int] = Field(default=None, foreign_key="user.id")
     balance: float = 0.0
     owner: Optional[User] = Relationship(back_populates="wallets")
-    transactions: list["Transaction"] = Relationship(back_populates="wallet")
+    transactions: List["Transaction"] = Relationship(back_populates="wallet")
 
 class TransactionBase(SQLModel):
     amount: float

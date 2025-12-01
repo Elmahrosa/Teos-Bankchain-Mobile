@@ -6,3 +6,7 @@ python-jose[cryptography]==3.3.0
 python-multipart==0.0.6
 httpx==0.25.2
 pytest==7.4.3
+slowapi==0.1.4
+alembic==1.11.1
+python-dotenv==1.0.0
+sqladmin==0.3.3

@@ -1,8 +1,8 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, HTTPException
 from sqlmodel import Session, select
 from ..models import User
 from ..schemas import UserCreate, Token
-from ..db import engine
+from ..db import engine, get_session
 from ..security import get_password_hash, verify_password, create_access_token
 
 router = APIRouter()
