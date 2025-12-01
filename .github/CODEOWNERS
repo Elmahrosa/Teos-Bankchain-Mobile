@@ -1,0 +1,45 @@
+1. 
+
+# TEOS BankChain Mobile - CODEOWNERS
+# Auto-assign PR reviews to core team
+
+# Core maintainers (replace with your GitHub usernames)
+* @Elmahrosa @aymanseif-teos
+
+# Mobile app files
+/mobile/ @Elmahrosa
+/app/ @Elmahrosa
+/expo/ @Elmahrosa
+*.tsx @Elmahrosa
+*.ts @Elmahrosa
+
+# Backend & API
+/backend/ @aymanseif-teos
+/api/ @aymanseif-teos
+*.py @aymanseif-teos
+fastapi/ @aymanseif-teos
+
+# Compliance & Security
+/compliance/ @Elmahrosa @aymanseif-teos
+/security/ @Elmahrosa @aymanseif-teos
+kyc/ @Elmahrosa
+aml/ @Elmahrosa
+
+# Infrastructure
+/.github/ @aymanseif-teos
+/docker/ @aymanseif-teos
+/kubernetes/ @aymanseif-teos
+terraform/ @aymanseif-teos
+
+# Documentation
+/docs/ @Elmahrosa
+README.md @Elmahrosa @aymanseif-teos
+
+# Blockchain integrations
+/blockchain/ @Elmahrosa @aymanseif-teos
+/eth/ @Elmahrosa
+/pi/ @Elmahrosa
+/btc/ @Elmahrosa
+
+
+✅ Step-by-Step Fi
