@@ -1,10 +1,10 @@
 # backend/tests/test_health.py
 from fastapi.testclient import TestClient
-from backend.app.main import app
+from backend.main import app  # adjust import if your FastAPI app entrypoint differs
 
 client = TestClient(app)
 
-def test_health():
-    resp = client.get("/health")
-    assert resp.status_code == 200
-    assert resp.json() == {"status": "ok"}
+def test_health_endpoint():
+    response = client.get("/health")
+    assert response.status_code == 200
+    assert response.json() == {"status": "ok"}
