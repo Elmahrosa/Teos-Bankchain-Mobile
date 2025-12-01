@@ -38,3 +38,9 @@ DerivedData/
 *.pid
 *.log
 docker-compose.override.yml
+.venv/
+mobile/.expo/
+teos.db
+__pycache__/
+*.log
+*.sqlite
