@@ -1,135 +1,289 @@
 # 🏦 Contributing Guidelines — TEOS BankChain Mobile
 
-⚠️ **Private Repository — Restricted to Partner Banks Only**  
-Access is limited to financial institutions operating under direct agreement with **TEOS Egypt**.  
+⚠️ **Private Repository — Restricted to Partner Banks Only**
+Access is limited to financial institutions operating under direct agreement with **TEOS Egypt**.
 Redistribution, copying, or public disclosure is strictly prohibited.
 
 ---
 
-## 📌 Contribution Workflow
+# 📌 1. Authorization & Access
 
-### 1. Authorization
-- Only approved bank developers with signed agreements may contribute.  
-- Access must be provisioned through TEOS Egypt Security.
+* Only approved bank developers with signed **NDA + Partner Access Agreement** may contribute.
+* Access must be provisioned through **TEOS Egypt Security & Governance Team**.
+* All contributors must use:
 
-### 2. Branching Rules
-- All work MUST be done in a feature branch.  
-- Naming convention:
-  - `feature/<name>`
-  - `fix/<issue>`
-  - `hotfix/<critical>`
-- **Direct commits to `main` are prohibited.**
+  * Bank-approved devices
+  * Secure VPN
+  * Hardened environments
 
-### 3. Pull Requests (PRs)
-- PRs can only target `develop` or approved integration branches.
-- Every PR must include:
-  - ✔️ Purpose & change summary  
-  - ✔️ Compliance notes (KYC/AML impact if any)  
-  - ✔️ Test coverage confirmation  
-- Direct merges to `main` are impossible due to branch protection.
-
-### 4. Status Checks (Required to Merge)
-All checks must pass before merging:
-
-- ✅ `verify.yml` — documentation, links, secrets validation  
-- ✅ `ci.yml` — backend + mobile tests  
-- ✅ `codeql.yml` — security scanning (bank-grade)  
-- ✔️ Signed commits  
-- ✔️ Linear history (no merge commits)  
+Unauthorized or public contributions are not allowed.
 
 ---
 
-## 🔒 Branch Protection Rules (Compliance-Grade)
+# 🌿 2. Branching Rules
 
-The `main` branch is locked with strict protections:
+### Allowed branch types:
 
-- No direct pushes  
-- No force pushes  
-- Require approved Pull Requests  
-- Require:
-  - `verify`
-  - `ci`
-  - `codeql`
-- Require signed commits  
-- Require passing code scanning  
-- Require code-quality reports with **block on error**  
-- Only compliance-approved maintainers may bypass restrictions  
+* `feature/<module-name>`
+* `fix/<issue-id>`
+* `hotfix/<critical-issue>`
 
----
+### Requirements:
 
-## 🛡️ Security & Compliance Standards
+* **All work MUST occur in a dedicated branch.**
+* **Direct commits to `main` are strictly prohibited.**
+* Every branch must reference:
 
-- ❌ **Never commit secrets, tokens, API keys, bank credentials, or customer data.**  
-- ✔️ All development activity must maintain **full auditability**.  
-- ✔️ KYC/AML logic must remain intact in all flows.  
-- ✔️ Report vulnerabilities privately via **SECURITY.md**.  
-- 🔐 Use bank-approved devices and secure VPN connections.
+  * Issue number (if applicable)
+  * Module touched
+  * Compliance or security note (if relevant)
 
 ---
 
-## 🧭 Developer Best Practices
+# 🔄 3. Pull Requests (PR Workflow)
 
-- Run local tests before any PR submission:
-  ```bash
-  pytest
-  npm test
-````
+PRs may target:
 
-* Document compliance impact clearly in the PR description.
-* Use least-privilege access when interacting with internal systems.
-* Keep work isolated and avoid unnecessary modifications to core modules.
+* `develop`
+* integration branches (`integration/mobile`, `integration/backend`)
+
+PRs **cannot** target `main` directly.
+
+### Every PR must include:
+
+* ✔️ Clear change summary
+* ✔️ Compliance notes (KYC/AML/SAR impact if any)
+* ✔️ Test coverage statement
+* ✔️ Linked issue or scope reference
+* ✔️ GPG-signed commits
+* ✔️ No screenshots of internal data
+
+### PR Review Requirements:
+
+* Minimum **2 reviewer approvals**
+* All CI/CD pipelines must pass
+* Linear history (rebase only, no merge commits)
 
 ---
 
-## 🧑‍💻 Code Style Guide
+# 🚦 4. Required CI/CD Status Checks
 
-### Backend — **FastAPI / Python**
+All must be green before merging:
 
-* Follow **PEP8**
-* Type hints required
-* Tests stored in:
+| Check                 | Purpose                                             |
+| --------------------- | --------------------------------------------------- |
+| **verify.yml**        | Documentation, links, formatting, secret validation |
+| **ci.yml**            | Backend + mobile tests                              |
+| **codeql.yml**        | Security scanning (bank-grade CodeQL)               |
+| **dependency-review** | Vulnerable dependencies check                       |
+| **signed commits**    | Mandatory for audit & regulator compliance          |
+
+If any check fails → PR is blocked automatically.
+
+---
+
+# 🔐 5. Branch Protection Rules (Bank-Grade)
+
+### `main` branch protection:
+
+* No direct pushes
+* No force pushes
+* Require PR reviews (2+)
+* Require:
+
+  * `verify`
+  * `ci`
+  * `codeql`
+  * dependency review
+* Require signed commits
+* Require successful code scanning
+* Only compliance-approved maintainers can bypass restrictions
+* All merges logged in immutable audit logs
+
+---
+
+# 🛡️ 6. Security & Compliance Standards
+
+* ❌ **Never commit secrets, API keys, wallet seeds, or credentials**
+* ❌ **Never expose bank customer data or compliance reports**
+* ✔️ Follow secure coding (input validation, sanitization, rate limits)
+* ✔️ KYC/AML logic must remain intact and unchanged unless approved
+* ✔️ Use vault-stored environment variables
+* ✔️ Review dependencies for license + vulnerability issues
+* ✔️ Follow TEOS Egypt Security Framework & AML/UN/USA sanctions lists
+
+For vulnerabilities → follow **SECURITY.md**.
+
+---
+
+# 🧪 7. Testing Requirements
+
+### Backend (FastAPI / Python):
+
+* Unit tests required for:
+
+  * Wallet module
+  * Compliance module
+  * Transaction flows
+* Integration tests required for:
+
+  * KYC
+  * AML
+  * SAR reporting
+  * Authentication
+* Test directory:
 
   ```
   backend/tests/
   ```
 
-### Mobile — **Expo / React Native**
+### Mobile (Expo / React Native):
 
-* ESLint + Prettier enforced
-* Functional components preferred
-* Tests stored in:
+* Unit tests for UI logic + secure state flows
+* Integration tests for:
+
+  * Wallet screens
+  * API interactions
+  * Biometric authentication
+* Directory:
 
   ```
   mobile/__tests__/
   ```
 
+### Minimum Coverage:
+
+* **80%** backend
+* **80%** mobile
+
 ---
 
-## 🐛 Reporting Issues
+# 🧑‍💻 8. Code Style Guidelines
 
-⚠️ **Never open public issues.**
-All issue reporting must occur through private, secure TEOS Egypt channels.
+### Backend — Python (FastAPI)
+
+* Follow **PEP8**
+* Mandatory type hints
+* Use `black` for formatting
+* Use `pydantic` models for all schemas
+* No wildcard imports
+
+### Mobile — React Native / Expo
+
+* ESLint + Prettier required
+* Functional components only
+* Use TypeScript throughout
+* Avoid inline styles (Tailwind or StyleSheet)
+
+---
+
+# 🐞 9. Issue Reporting
+
+⚠️ **Never open public GitHub issues.**
+All reports must go through the **TEOS private secure channels**.
 
 Include:
 
 * Steps to reproduce
-* Expected vs actual behavior
-* Security/compliance impact
-* Suggested fix (optional)
+* Expected vs actual results
+* Compliance/security impact
+* Optional fix proposal
+
+If the issue touches AML/KYC → auto-escalation is mandatory.
 
 ---
 
-## 📞 Contact (Authorized Channels Only)
+# 🧭 10. Developer Workflow (Quick Summary)
 
-**TEOS Egypt — Security & Governance Team**
+1. Create branch
+2. Code changes
+3. Add tests
+4. Run local checks:
+
+   ```bash
+   pytest
+   npm test
+   ```
+5. Run security checks:
+
+   ```bash
+   bandit -r backend/
+   npm audit
+   ```
+6. Commit with GPG signature
+7. Push branch
+8. Open PR
+9. Pass all CI checks
+10. Review + merge into `develop`
+
+---
+
+# 🏷️ 11. Commit Standards
+
+### Commit format:
+
+```
+type(scope): message
+```
+
+### Types:
+
+* `feat:` New feature
+* `fix:` Bug fix
+* `sec:` Security fix
+* `docs:` Documentation
+* `test:` Tests
+* `chore:` Maintenance
+
+### Example:
+
+```
+feat(wallet): add AML screening on wallet creation
+```
+
+All commits must be **signed & verified**.
+
+---
+
+# 📦 12. Dependencies
+
+* Must use vetted, regulator-compliant libraries
+* All dependencies must be pinned
+* Dependabot alerts must be addressed within **48 hours**
+* High-risk vulnerabilities → block merge until patched
+
+---
+
+# 🚀 13. Releases
+
+* Semantic versioning: `vX.Y.Z`
+* Update `CHANGELOG.md`
+* Tag release + generate GitHub Release
+* Include:
+
+  * Summary
+  * Risk assessment
+  * Compliance notes
+
+---
+
+# 🔐 License
+
+**Proprietary © Elmahrosa International & TEOS Egypt**
+Not open source. Redistribution prohibited.
+Unauthorized access will result in immediate legal action.
+
+---
+
+# 📞 Contact — (Authorized Channels Only)
+
+**TEOS Egypt — Security & Governance Division**
 📧 Private bank communication channel
 📱 WhatsApp: **+20 100 616 7293**
 🔗 LinkedIn: [Ayman Seif](https://www.linkedin.com/in/aymanseif/)
 
 ---
 
-## 🔐 License
-
-**Private © Elmahrosa & TEOS Egypt**
-Not open source. Not for public distribution.
-All rights reserved.
+**Version:** 1.7
+**Status:** Active
+**Last Updated:** Dec 1, 2025
