@@ -1,18 +1,20 @@
 # TEOS BankChain Mobile 🚀 — Enterprise Digital Asset Infrastructure for Partner Banks
 
-“Part of the TEOS Egypt Blockchain Ecosystem — a unified civil, financial, and smart-city infrastructure powering digital banking, civic governance, DeFi, Pi integration, and national blockchain services.”
+“Part of the TEOS Egypt Blockchain Ecosystem — a unified civil, financial, and smart‑city infrastructure powering digital banking, civic governance, DeFi, Pi integration, and national blockchain services.”
 
 ---
 
 ## 🛑 PROPRIETARY & CONFIDENTIAL — TEOS EGYPT
 [![Strictly Proprietary](https://img.shields.io/badge/Strictly%20Proprietary-TEOS%20Sovereign%20License-ff0000?style=for-the-badge)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)
 
-> Copyright © 2025 Elmahrosa International. All Rights Reserved.  
+> Copyright © 2025 Elmahrosa International.  
+> All Rights Reserved.  
 > This material is NOT open source and is protected by the TEOS Egypt Sovereign License (TESL).  
-> For the full license text, see [TEOS Egypt Sovereign License (TESL)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md).
-> 
+> For the full license text, see [TEOS Egypt Sovereign License (TESL)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md).  
+>  
 > **Initial Author:** Elmahrosa International  
 > **Governing law and venue:** Cairo, Arab Republic of Egypt.
+
 ---
 
 ![Private](https://img.shields.io/badge/License-Private%20©%20Elmahrosa%20%26%20TEOS%20Egypt-red)
@@ -31,21 +33,23 @@
 ![BIS](https://img.shields.io/badge/BIS-Banking%20Standards%20Aligned-gray)
 
 ---
+
 📊 Sample regulator reports available in [compliance/samples](./compliance/samples)
 
+---
 
 ## 🌍 Overview
 
-**TEOS BankChain Mobile** is an enterprise-grade, regulator-aligned blockchain infrastructure for **licensed financial institutions only**.  
+**TEOS BankChain Mobile** is an enterprise‑grade, regulator‑aligned blockchain infrastructure for **licensed financial institutions only**.  
 
-Features:
+**Features:**
 - Secure custodial wallets  
 - Fiat ↔ cryptocurrency conversion  
 - Automated KYC/AML/SAR compliance  
-- Regulator-ready audit trails  
+- Regulator‑ready audit trails  
 - Full integration with bank core systems  
 
-Deployment models: **on-prem**, **air-gapped**, or **cloud**.
+Deployment models: **on‑prem**, **air‑gapped**, or **cloud**.
 
 ---
 
@@ -54,30 +58,30 @@ Deployment models: **on-prem**, **air-gapped**, or **cloud**.
 Anchored to the 📘 **International Civic Blockchain Constitution**:  
 https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
 
-Modules enforced:
-- **Governance** – proposal/ratification  
-- **Treasury** – liquidity, contribution handling  
-- **Compliance** – KYC, AML, SAR  
-- **Audit** – internal + regulator  
-- **Risk** – SIEM, incident response, resilience  
+**Modules enforced:**
+- Governance – proposal/ratification  
+- Treasury – liquidity, contribution handling  
+- Compliance – KYC, AML, SAR  
+- Audit – internal + regulator  
+- Risk – SIEM, incident response, resilience  
 
 ---
 
 ## 🛡 Global Regulator & Central Bank Compliance
 
 Aligned with:
-- **CBE – Central Bank of Egypt**  
-- **SAMA – Saudi Central Bank**  
-- **FCA – UK Financial Conduct Authority**  
-- **FINMA – Swiss Financial Market Authority**  
-- **MAS – Monetary Authority of Singapore**  
-- **ECB – European Central Bank**  
-- **FRB – U.S. Federal Reserve Board**  
-- **OFAC – U.S. Treasury Sanctions Office**  
-- **FATF – Global AML/CFT Standards**  
-- **UNODC – Anti-Money Laundering Framework**  
-- **IMF – International Financial Stability Guidelines**  
-- **BIS – Bank for International Settlements Standards**
+- CBE – Central Bank of Egypt  
+- SAMA – Saudi Central Bank  
+- FCA – UK Financial Conduct Authority  
+- FINMA – Swiss Financial Market Authority  
+- MAS – Monetary Authority of Singapore  
+- ECB – European Central Bank  
+- FRB – U.S. Federal Reserve Board  
+- OFAC – U.S. Treasury Sanctions Office  
+- FATF – Global AML/CFT Standards  
+- UNODC – Anti‑Money Laundering Framework  
+- IMF – International Financial Stability Guidelines  
+- BIS – Bank for International Settlements Standards  
 
 ---
 
@@ -150,62 +154,58 @@ flowchart TD
 
 - ISO 27001 & SOC2 aligned  
 - AML/CFT automation  
-- Regulator-native reporting  
+- Regulator‑native reporting  
 - Immutable audit logs  
 - Enterprise CI/CD with CodeQL & Dependabot  
-- Air-gap deployment compatible  
+- Air‑gap deployment compatible  
 
 ---
 
 ## 🔒 Repository Hardening Dashboard
 
+*(Self‑audit of governance, compliance, and security readiness)*
+
 | Category                            | Status     |
 | ----------------------------------- | ---------- |
-| **Repository Governance**           | ⚠️ Partial |
-| **Code of Conduct**                 | ❌ Missing |
-| **Contributing Guidelines**         | ❌ Missing |
-| **Code Owners / Branch Protection** | ❌ Missing |
-| **Commit Signing / Traceability**   | ❌ Missing |
-| **Access Management**               | ⚠️ Partial |
-| **Security & Compliance**           | ⚠️ Partial |
-| **Secret Management**               | ⚠️ Partial |
-| **Secret Scanning**                 | ❌ Missing |
-| **Dependency Management**           | ⚠️ Partial |
-| **Static Analysis / SAST**          | ⚠️ Partial |
-| **Penetration Testing**             | ❌ Missing |
-| **Versioning & Release**            | ❌ Missing |
-| **Changelog**                       | ❌ Missing |
-| **Release Tags**                    | ❌ Missing |
-| **Deployment Notes**                | ⚠️ Partial |
-| **Testing & CI/CD**                 | ❌ Missing |
-| **Unit Tests**                      | ❌ Missing |
-| **Integration Tests**               | ❌ Missing |
-| **Security Tests**                  | ❌ Missing |
-| **CI Pipeline**                     | ⚠️ Partial |
-| **Code Coverage Reporting**         | ❌ Missing |
-| **Deployment & Infrastructure**     | ⚠️ Partial |
-| **Config Management**               | ⚠️ Partial |
-| **Infrastructure as Code**          | ❌ Missing |
-| **Logging & Monitoring**            | ⚠️ Partial |
-| **Backup & Recovery**               | ❌ Missing |
-| **Air-gapped Deployment**           | ⚠️ Partial |
-| **Compliance & Audit**              | ⚠️ Partial |
-| **Audit Trail**                     | ⚠️ Partial |
-| **Regulator Reporting**             | ⚠️ Partial |
-| **GDPR / PSD2 Compliance**          | ⚠️ Partial |
-| **Internal Policies**               | ⚠️ Partial |
-| **External Audit Readiness**        | ⚠️ Partial |
-| **Documentation & Knowledge**       | ⚠️ Partial |
-| **README Update**                   | ✅ Done |
-| **Architecture Diagrams**           | ✅ Done |
-| **Playbooks**                       | ⚠️ Partial |
-| **Repository Structure**            | ⚠️ Partial |
-| **Security Docs**                   | ✅ Done |
-| **Incident Response & Continuity**  | ❌ Missing |
-| **Disaster Recovery**               | ❌ Missing |
-| **Communication Plan**              | ❌ Missing |
-| **Resilience Testing**              | ❌ Missing |
+| Repository Governance               | ⚠️ Partial |
+| Code of Conduct                     | ❌ Missing |
+| Contributing Guidelines             | ❌ Missing |
+| Code Owners / Branch Protection     | ❌ Missing |
+| Commit Signing / Traceability       | ❌ Missing |
+| Access Management                   | ⚠️ Partial |
+| Security & Compliance               | ⚠️ Partial |
+| Secret Management                   | ⚠️ Partial |
+| Secret Scanning                     | ❌ Missing |
+| Dependency Management               | ⚠️ Partial |
+| Static Analysis / SAST              | ⚠️ Partial |
+| Penetration Testing                 | ❌ Missing |
+| Versioning & Release                | ❌ Missing |
+| Changelog                           | ❌ Missing |
+| Release Tags                        | ❌ Missing |
+| Deployment Notes                    | ⚠️ Partial |
+| Testing & CI/CD                     | ❌ Missing |
+| Unit Tests                          | ❌ Missing |
+| Integration Tests                   | ❌ Missing |
+| Security Tests                      | ❌ Missing |
+| CI Pipeline                         | ⚠️ Partial |
+| Code Coverage Reporting             | ❌ Missing |
+| Deployment & Infrastructure         | ⚠️ Partial |
+| Config Management                   | ⚠️ Partial |
+| Infrastructure as Code              | ❌ Missing |
+| Logging & Monitoring                | ⚠️ Partial |
+| Backup & Recovery                   | ❌ Missing |
+| Air‑gapped Deployment               | ⚠️ Partial |
+| Compliance & Audit                  | ⚠️ Partial |
+| Audit Trail                         | ⚠️ Partial |
+| Regulator Reporting                 | ⚠️ Partial |
+| GDPR / PSD2 Compliance              | ⚠️ Partial |
+| Internal Policies                   | ⚠️ Partial |
+| External Audit Readiness            | ⚠️ Partial |
+| Documentation & Knowledge           | ⚠️ Partial |
+| README Update                       | ✅ Done |
+| Architecture Diagrams               | ✅
 
+-----
 ---
 
 ## 📜 License & NDA — Private Restricted Access
@@ -213,7 +213,7 @@ flowchart TD
 **Private © Elmahrosa & TEOS Egypt**  
 Effective: **Nov 30, 2025**
 
-- Strict NDA covering code, architecture, badges  
+- Strict NDA covering code, architecture, and compliance badges  
 - No redistribution, screenshots, or public disclosure  
 - Violations → Legal enforcement under Egyptian law  
 
@@ -223,11 +223,11 @@ Effective: **Nov 30, 2025**
 
 **Founder & CEO: Ayman Seif**
 
-📧 [ayman@teosegypt.com](mailto:ayman@teosegypt.com)
-📱 WhatsApp: +20 100 616 7293
-🔗 [LinkedIn](https://www.linkedin.com/in/aymanseif/)
+📧 [ayman@teosegypt.com](mailto:ayman@teosegypt.com)  
+📱 WhatsApp: +20 100 616 7293  
+🔗 [LinkedIn](https://www.linkedin.com/in/aymanseif/)  
 
-```## Executive contact
+```markdown
+## Executive contact
 - Email: ayman@teosegypt.com
 - Site: https://bankchain.teosegypt.com
-
