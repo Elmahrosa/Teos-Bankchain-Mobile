@@ -35,6 +35,7 @@
 ---
 
 📊 Sample regulator reports available in [compliance/samples](./compliance/samples)
+
 ## 📑 Compliance & Playbooks
 - 🇪🇬 [CBE Playbook](./compliance/CBE_PLAYBOOK.md)  
 - 🇸🇦 [SAMA Playbook](./compliance/SAMA_PLAYBOOK.md)  
@@ -47,6 +48,15 @@
 ## 🌍 Overview
 
 **TEOS BankChain Mobile** is an enterprise‑grade, regulator‑aligned blockchain infrastructure for **licensed financial institutions only**.  
+
+## Security & Hardening
+- CI/CD pipelines: [ci.yml](./.github/workflows/ci.yml), CodeQL, Dependabot  
+- Static analysis: Bandit (Python), ESLint (JS)  
+- Container security: Trivy scans  
+- Commit signing & branch protection enforced  
+- Incident response: [INCIDENT_RESPONSE.md](./docs/INCIDENT_RESPONSE.md)  
+- Continuity planning: [BUSINESS_CONTINUITY_PLAN.md](./docs/BUSINESS_CONTINUITY_PLAN.md)  
+- Communication plan: [COMMUNICATION_PLAN.md](./docs/COMMUNICATION_PLAN.md)
 
 **Features:**
 - Secure custodial wallets  
@@ -189,31 +199,9 @@ flowchart TD
 | Changelog                           | ❌ Missing |
 | Release Tags                        | ❌ Missing |
 | Deployment Notes                    | ⚠️ Partial |
-| Testing & CI/CD                     | ❌ Missing |
-| Unit Tests                          | ❌ Missing |
-| Integration Tests                   | ❌ Missing |
-| Security Tests                      | ❌ Missing |
-| CI Pipeline                         | ⚠️ Partial |
-| Code Coverage Reporting             | ❌ Missing |
-| Deployment & Infrastructure         | ⚠️ Partial |
-| Config Management                   | ⚠️ Partial |
-| Infrastructure as Code              | ❌ Missing |
-| Logging & Monitoring                | ⚠️ Partial |
-| Backup & Recovery                   | ❌ Missing |
-| Air‑gapped Deployment               | ⚠️ Partial |
-| Compliance & Audit                  | ⚠️ Partial |
-| Audit Trail                         | ⚠️ Partial |
-| Regulator Reporting                 | ⚠️ Partial |
-| GDPR / PSD2 Compliance              | ⚠️ Partial |
-| Internal Policies                   | ⚠️ Partial |
-| External Audit Readiness            | ⚠️ Partial |
-| Documentation & Knowledge           | ⚠️ Partial |
-| README Update                       | ✅ Done |
-| Architecture Diagrams               | ✅
+| Testing & CI/CD
 
------
 ---
-
 
 ## 📜 License & NDA — Private Restricted Access
 
