@@ -35,6 +35,12 @@
 ---
 
 📊 Sample regulator reports available in [compliance/samples](./compliance/samples)
+## 📑 Compliance & Playbooks
+- 🇪🇬 [CBE Playbook](./compliance/CBE_PLAYBOOK.md)  
+- 🇸🇦 [SAMA Playbook](./compliance/SAMA_PLAYBOOK.md)  
+- 🌍 [Global Playbook](./compliance/GLOBAL_PLAYBOOK.md)  
+- 📊 [Sample Regulator Reports](./compliance/samples)  
+- 📑 [Compliance Index](./COMPLIANCE_INDEX.md)
 
 ---
 
