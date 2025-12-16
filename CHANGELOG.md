@@ -11,6 +11,28 @@ Dates are in **YYYY‑MM‑DD** format.
 
 ---
 
+## [1.2.0] — 2026‑01‑15
+### Planned
+- Penetration testing suite integrated (OWASP, ZAP, custom scripts).  
+- Expanded unit and integration test coverage.  
+- Automated release workflow with signed tags and CI/CD validation.  
+- Enhanced regulator dashboards with resilience drill reports.  
+
+---
+
+## [1.1.0] — 2025‑12‑17
+### Added
+- Governance docs: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `CODEOWNERS`.  
+- Testing stubs: `/tests/test_sample.py` and `/tests/test_security.py`.  
+- Release management: `CHANGELOG.md` finalized, version tags introduced.  
+- Resilience testing: `RESILIENCE_TESTING.md` playbook for quarterly/annual drills.  
+
+### Changed
+- README.md updated with links to Incident Response, Business Continuity, and Communication Plan.  
+- Hardening Dashboard updated to reflect ✅ for governance, testing, release management, resilience testing.  
+
+---
+
 ## [1.0.0] — 2025‑11‑30
 ### Added
 - Initial release of **TEOS BankChain Mobile**.  
