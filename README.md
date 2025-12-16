@@ -225,4 +225,7 @@ Effective: **Nov 30, 2025**
 📱 WhatsApp: +20 100 616 7293
 🔗 [LinkedIn](https://www.linkedin.com/in/aymanseif/)
 
-```
+```## Executive contact
+- Email: ayman@teosegypt.com
+- Site: https://bankchain.teosegypt.com
+
