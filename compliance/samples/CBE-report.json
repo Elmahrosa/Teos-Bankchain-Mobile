@@ -1,0 +1,28 @@
+{
+  "regulator": "Central Bank of Egypt",
+  "date": "2025-12-17",
+  "institution": "Licensed Bank - Egypt",
+  "transactions": [
+    {
+      "id": "TXN-001",
+      "amount": 15000,
+      "currency": "EGP",
+      "type": "crypto-fiat",
+      "aml_flag": false,
+      "sanctions_screening": "clear"
+    },
+    {
+      "id": "TXN-002",
+      "amount": 500000,
+      "currency": "USD",
+      "type": "cross-border",
+      "aml_flag": true,
+      "sanctions_screening": "alert"
+    }
+  ],
+  "summary": {
+    "total_transactions": 2,
+    "aml_alerts": 1,
+    "sanctions_alerts": 1
+  }
+}
