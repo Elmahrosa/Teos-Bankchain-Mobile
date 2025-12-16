@@ -1,0 +1,3 @@
+TransactionID,Amount,Currency,Type,AML_Flag,Sanctions_Screening
+TXN-001,15000,EGP,crypto-fiat,false,clear
+TXN-002,500000,USD,cross-border,true,alert
