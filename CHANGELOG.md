@@ -52,4 +52,3 @@ Dates are in **YYYY‑MM‑DD** format.
 - All releases must pass **Verify**, **CI**, and **CodeQL** workflows.  
 - Releases are tagged and signed under TEOS Egypt authority.  
 - Partner banks receive advisories through secure channels only.
-
