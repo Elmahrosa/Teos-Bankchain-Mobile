@@ -31,6 +31,8 @@
 ![BIS](https://img.shields.io/badge/BIS-Banking%20Standards%20Aligned-gray)
 
 ---
+📊 Sample regulator reports available in [compliance/samples](./compliance/samples)
+
 
 ## 🌍 Overview
 
