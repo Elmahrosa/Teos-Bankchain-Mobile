@@ -1,0 +1,28 @@
+{
+  "regulator": "Saudi Arabian Monetary Authority",
+  "date": "2025-12-17",
+  "institution": "Licensed Bank - Saudi Arabia",
+  "transactions": [
+    {
+      "id": "TXN-101",
+      "amount": 25000,
+      "currency": "SAR",
+      "type": "crypto-fiat",
+      "sharia_compliant": true,
+      "aml_flag": false
+    },
+    {
+      "id": "TXN-102",
+      "amount": 750000,
+      "currency": "USD",
+      "type": "cross-border",
+      "sharia_compliant": false,
+      "aml_flag": true
+    }
+  ],
+  "summary": {
+    "total_transactions": 2,
+    "aml_alerts": 1,
+    "sharia_non_compliant": 1
+  }
+}
