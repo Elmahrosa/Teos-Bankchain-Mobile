@@ -62,6 +62,32 @@ Governed by the **TEOS Egypt Sovereign License (TESL v2.0)** — **NOT for sale*
 
 ---
 
+## ⏱ Response Timeframes
+- **Critical** → Immediate response, regulator notified within 1 hour.  
+- **High** → Containment within 4 hours, report within 24 hours.  
+- **Medium** → Resolution within 24 hours, report within 72 hours.  
+- **Low** → Resolution within 72 hours, documented in audit ledger.
+
+---
+
+## 📈 Escalation Matrix
+- **Critical** → Compliance Officer + CEO + Regulator Liaison.  
+- **High** → Compliance Officer + Security Lead.  
+- **Medium** → Security Lead + DevOps.  
+- **Low** → Assigned engineer, logged in ledger.
+
+---
+
+## 🔗 Continuity Reference
+For disaster recovery and resilience procedures, see [BUSINESS_CONTINUITY_PLAN.md](./BUSINESS_CONTINUITY_PLAN.md).
+
+---
+
+## 📝 Audit Logging
+All incident actions (detection, containment, eradication, recovery) are logged in the **Immutable Audit Ledger** and exported to regulator dashboards.
+
+---
+
 ## 📑 Regulator Reporting Templates
 - `compliance/samples/CBE-report.json`  
 - `compliance/samples/SAMA-report.json`  
@@ -80,4 +106,3 @@ Governed by the **TEOS Egypt Sovereign License (TESL v2.0)** — **NOT for sale*
 For incident response coordination:  
 - Email: **ayman@teosegypt.com**  
 - Site: [https://teosegypt.com](https://teosegypt.com)
-
