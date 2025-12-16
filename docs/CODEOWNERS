@@ -1,0 +1,7 @@
+# CODEOWNERS — Teos Bankchain Mobile
+# Define ownership for compliance and security-critical files
+
+/docs/INCIDENT_RESPONSE.md   @aymanseif
+/docs/BUSINESS_CONTINUITY_PLAN.md   @aymanseif
+/docs/COMMUNICATION_PLAN.md   @aymanseif
+/compliance/*   @aymanseif
