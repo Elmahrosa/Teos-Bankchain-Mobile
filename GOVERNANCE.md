@@ -1,3 +1,11 @@
+## Current Governance Status
+
+- Founder-led development
+- No external contributors
+- No DAO active at this stage
+
+The project is in **pre-institutional phase** and preparing for international exposure, including **Consensus Hong Kong (HK)**.
+
 # Governance Charter — TEOS BankChain Mobile 🏛️🌍
 
 ⚠️ **Private Repository — Restricted to Partner Banks Only**  
