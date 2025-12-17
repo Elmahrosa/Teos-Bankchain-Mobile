@@ -2,19 +2,58 @@ PolyForm Noncommercial License 1.0.0
 
 SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software, to use, copy, modify, merge, publish, distribute, and/or sublicense copies of the software, subject to the following conditions:
+Copyright © 2025 Elmahrosa International
+All Rights Reserved.
+
+---
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+use, copy, modify, merge, publish, distribute, and/or sublicense copies
+of the Software, subject to the following conditions:
 
 1. Noncommercial Use Only
-   You may use the software only for noncommercial purposes. Noncommercial purposes are those intended for personal, educational, research, or evaluation use. Any use of the software for commercial advantage or monetary compensation is prohibited without explicit written permission from the licensor.
+
+The Software may be used only for noncommercial purposes, including
+personal, educational, research, or evaluation use.
+
+Any use of the Software for commercial advantage, financial gain,
+monetization, resale, SaaS deployment, enterprise use, production systems,
+or token launches is strictly prohibited without explicit written
+permission from the licensor.
 
 2. No Warranty
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 3. Preservation of Notices
-   All copies of the software must include this license text.
+
+All copies or substantial portions of the Software must include this
+copyright notice and this license text.
 
 4. Termination
-   Any violation of these terms automatically terminates your rights under this license.
 
-This repository is source-available under the **PolyForm Noncommercial License 1.0.0**.  
-Full rights reserved to **Ayman Seif / Elmahrosa International**.
+Any violation of the terms of this license automatically terminates all
+rights granted herein.
+
+---
+
+This software is source-available under the PolyForm Noncommercial License
+1.0.0.
+
+Commercial rights, production use, and enterprise deployment are reserved
+exclusively to:
+
+Ayman Seif  
+Elmahrosa International
+
+Additional sovereign governance terms apply under the
+TEOS Egypt Sovereign License (TESL).
+See TESL.md for details.
