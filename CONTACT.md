@@ -29,16 +29,22 @@
 - 🌍 **Global Regulators**  
   Compliance Index: [COMPLIANCE_INDEX.md](../COMPLIANCE_INDEX.md)
 
-- 🇬🇧 **FCA — UK Financial Conduct Authority**  
-- 🇨🇭 **FINMA — Swiss Financial Market Authority**  
-- 🇸🇬 **MAS — Monetary Authority of Singapore**  
-- 🇪🇺 **ECB — European Central Bank**  
-- 🇺🇸 **FRB — U.S. Federal Reserve Board**  
-- 🇺🇸 **OFAC — U.S. Treasury Sanctions Office**  
-- 🌐 **FATF — Global AML/CFT Standards**  
-- 🌐 **UNODC — Anti‑Money Laundering Framework**  
-- 🌐 **IMF — International Financial Stability Guidelines**  
-- 🌐 **BIS — Bank for International Settlements Standards**
+## 📊 Regulator Compliance Status
+
+| Regulator / Authority              | Alignment Status |
+| ---------------------------------- | ---------------- |
+| 🇪🇬 CBE — Central Bank of Egypt     | ✅ Aligned |
+| 🇸🇦 SAMA — Saudi Central Bank       | ✅ Aligned |
+| 🇬🇧 FCA — UK Financial Conduct Auth | ✅ Aligned |
+| 🇨🇭 FINMA — Swiss Market Authority  | ✅ Aligned |
+| 🇸🇬 MAS — Monetary Authority SG     | ✅ Aligned |
+| 🇪🇺 ECB — European Central Bank     | ✅ Aligned |
+| 🇺🇸 FRB — U.S. Federal Reserve      | ✅ Aligned |
+| 🇺🇸 OFAC — U.S. Treasury Sanctions  | ✅ Screening Integrated |
+| 🌐 FATF — AML/CFT Standards         | ✅ Aligned |
+| 🌐 UNODC — Anti‑Crime Framework     | ✅ Aligned |
+| 🌐 IMF — Stability Guidelines       | ✅ Aligned |
+| 🌐 BIS — Banking Standards          | ✅ Aligned |
 
 ---
 
