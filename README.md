@@ -181,26 +181,29 @@ flowchart TD
 
 *(Self‑audit of governance, compliance, and security readiness)*
 
-| Category                            | Status     |
-| ----------------------------------- | ---------- |
-| Repository Governance               | ⚠️ Partial |
-| Code of Conduct                     | ❌ Missing |
-| Contributing Guidelines             | ❌ Missing |
-| Code Owners / Branch Protection     | ❌ Missing |
-| Commit Signing / Traceability       | ❌ Missing |
-| Access Management                   | ⚠️ Partial |
-| Security & Compliance               | ⚠️ Partial |
-| Secret Management                   | ⚠️ Partial |
-| Secret Scanning                     | ❌ Missing |
-| Dependency Management               | ⚠️ Partial |
-| Static Analysis / SAST              | ⚠️ Partial |
-| Penetration Testing                 | ❌ Missing |
-| Versioning & Release                | ❌ Missing |
-| Changelog                           | ❌ Missing |
-| Release Tags                        | ❌ Missing |
-| Deployment Notes                    | ⚠️ Partial |
-| Testing & CI/CD
+| Category                            | Status |
+| ----------------------------------- | ------ |
+| Repository Governance               | ✅ Done |
+| Code of Conduct                     | ✅ Done |
+| Contributing Guidelines             | ✅ Done |
+| Code Owners / Branch Protection     | ✅ Done |
+| Commit Signing / Traceability       | ✅ Done |
+| Access Management                   | ✅ Done |
+| Security & Compliance               | ✅ Done |
+| Secret Management                   | ✅ Done |
+| Secret Scanning                     | ✅ Done |
+| Dependency Management               | ✅ Done |
+| Static Analysis / SAST              | ✅ Done |
+| Penetration Testing                 | ✅ Done |
+| Versioning & Release                | ✅ Done |
+| Changelog                           | ✅ Done |
+| Release Tags                        | ✅ Done |
+| Deployment Notes                    | ✅ Done |
+| Testing & CI/CD                     | ✅ Done |
+| Unit Tests                          | ✅ Done |
+| Integration Tests                   | ✅ Done |
 
+---
 ---
 
 ## 📜 License & NDA — Private Restricted Access
@@ -221,8 +224,16 @@ Effective: **Nov 30, 2025**
 📧 [ayman@teosegypt.com](mailto:ayman@teosegypt.com)  
 📱 WhatsApp: +20 100 616 7293  
 🔗 [LinkedIn](https://www.linkedin.com/in/aymanseif/)  
+🌐 [https://bankchain.teosegypt.com](https://bankchain.teosegypt.com)
 
-```markdown
-## Executive contact
-- Email: ayman@teosegypt.com
-- Site: https://bankchain.teosegypt.com
+---
+
+## ✍️ Author Signature
+
+![Founder](https://img.shields.io/badge/Founder%20%26%20CEO-Ayman%20Seif-blue?style=for-the-badge)  
+![Email](https://img.shields.io/badge/Email-ayman%40teosegypt.com-green?style=for-the-badge)  
+![Site](https://img.shields.io/badge/Site-bankchain.teosegypt.com-purple?style=for-the-badge)
+
+**Signed:**  
+Ayman Seif — Founder & CEO, TEOS Egypt / Elmahrosa International
+
