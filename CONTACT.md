@@ -61,3 +61,32 @@ Violations → Legal enforcement under Egyptian law.
 
 **Signed:**  
 Ayman Seif — Founder & CEO, TEOS Egypt / Elmahrosa International
+
+![Founder](https://img.shields.io/badge/Founder%20%26%20CEO-Ayman%20Seif-blue?style=for-the-badge)
+![Email](https://img.shields.io/badge/Email-ayman%40teosegypt.com-green?style=for-the-badge)
+![Site](https://img.shields.io/badge/Site-bankchain.teosegypt.com-purple?style=for-the-badge)
+![CBE](https://img.shields.io/badge/CBE-Central%20Bank%20of%20Egypt-gold?style=for-the-badge)
+![SAMA](https://img.shields.io/badge/SAMA-Saudi%20Central%20Bank-green?style=for-the-badge)
+![FCA](https://img.shields.io/badge/FCA-UK%20Financial%20Conduct%20Authority-blue?style=for-the-badge)
+![FINMA](https://img.shields.io/badge/FINMA-Swiss%20Market%20Authority-red?style=for-the-badge)
+![MAS](https://img.shields.io/badge/MAS-Monetary%20Authority%20of%20Singapore-purple?style=for-the-badge)
+![ECB](https://img.shields.io/badge/ECB-European%20Central%20Bank-navy?style=for-the-badge)
+![FRB](https://img.shields.io/badge/FRB-US%20Federal%20Reserve-black?style=for-the-badge)
+![OFAC](https://img.shields.io/badge/OFAC-US%20Treasury%20Sanctions-red?style=for-the-badge)
+![FATF](https://img.shields.io/badge/FATF-AML%2FCFT%20Standards-cyan?style=for-the-badge)
+![UNODC](https://img.shields.io/badge/UNODC-Anti%20Crime%20Framework-blue?style=for-the-badge)
+![IMF](https://img.shields.io/badge/IMF-International%20Stability%20Guidelines-teal?style=for-the-badge)
+![BIS](https://img.shields.io/badge/BIS-Banking%20Standards%20Aligned-gray?style=for-the-badge)
+![CBE](https://img.shields.io/badge/CBE-Central%20Bank%20of%20Egypt-gold?style=for-the-badge)  
+![SAMA](https://img.shields.io/badge/SAMA-Saudi%20Central%20Bank-green?style=for-the-badge)  
+![FCA](https://img.shields.io/badge/FCA-UK%20Financial%20Conduct%20Authority-blue?style=for-the-badge)  
+![FINMA](https://img.shields.io/badge/FINMA-Swiss%20Market%20Authority-red?style=for-the-badge)  
+![MAS](https://img.shields.io/badge/MAS-Monetary%20Authority%20of%20Singapore-purple?style=for-the-badge)  
+![ECB](https://img.shields.io/badge/ECB-European%20Central%20Bank-navy?style=for-the-badge)  
+![FRB](https://img.shields.io/badge/FRB-US%20Federal%20Reserve-black?style=for-the-badge)  
+![OFAC](https://img.shields.io/badge/OFAC-US%20Treasury%20Sanctions-red?style=for-the-badge)  
+![FATF](https://img.shields.io/badge/FATF-AML%2FCFT%20Standards-cyan?style=for-the-badge)  
+![UNODC](https://img.shields.io/badge/UNODC-Anti%20Crime%20Framework-blue?style=for-the-badge)  
+![IMF](https://img.shields.io/badge/IMF-International%20Stability%20Guidelines-teal?style=for-the-badge)  
+![BIS](https://img.shields.io/badge/BIS-Banking%20Standards%20Aligned-gray?style=for-the-badge)
+
