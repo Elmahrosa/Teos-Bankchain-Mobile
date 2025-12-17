@@ -237,3 +237,18 @@ Effective: **Nov 30, 2025**
 **Signed:**  
 Ayman Seif — Founder & CEO, TEOS Egypt / Elmahrosa International
 
+## ⚖️ License & Permissions
+
+This repository is source‑available under the **PolyForm Noncommercial License 1.0.0**.
+
+Full rights to use, modify, deploy, or commercialize are reserved for:  
+**Ayman Seif / Elmahrosa International**
+
+All other usage (including commercial and production deployments)  
+requires **explicit written permission** from the owner.
+
+See:  
+- [LICENSE](./LICENSE)  
+- [TESL.md](./TESL.md)  
+
+📧 Contact: ayman@teosegypt.com
