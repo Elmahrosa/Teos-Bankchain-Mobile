@@ -1,4 +1,5 @@
 ## ⚖️ License & Permissions
+
 # TEOS Egypt Software License (TESL) — Pharaoh Portal
 
 ![License](https://img.shields.io/badge/license-TESL%20%2F%20Non--Commercial-red)
