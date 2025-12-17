@@ -210,4 +210,9 @@ Unauthorized access will result in immediate legal action.
 **Status:** Active  
 **Last Updated:** Dec 1, 2025  
 
----
+---# Contributing Guidelines — Teos Bankchain Mobile
+
+Thank you for your interest in contributing!
+
+## 📧 Contact
+For compliance questions: ayman@teosegypt.com
