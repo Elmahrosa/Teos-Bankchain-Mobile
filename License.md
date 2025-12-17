@@ -1,68 +1,47 @@
-# License — TEOS BankChain Mobile ⚖️
+# 📜 License — TEOS Egypt Sovereign + PolyForm Noncommercial
+
+---
+
+## PolyForm Noncommercial License 1.0.0
+
 SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 
-⚠️ **Private Repository — Restricted to Partner Banks Only**  
-Access is limited to financial institutions operating under direct agreement with TEOS Egypt.  
-Redistribution or public disclosure is prohibited.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software, to use, copy, modify, merge, publish, distribute, and/or sublicense copies of the software, subject to the following conditions:
+
+1. **Noncommercial Use Only**  
+   You may use the software only for noncommercial purposes. Noncommercial purposes are those intended for personal, educational, research, or evaluation use. Any use of the software for commercial advantage or monetary compensation is prohibited without explicit written permission from the licensor.
+
+2. **No Warranty**  
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+3. **Preservation of Notices**  
+   All copies of the software must include this license text.
+
+4. **Termination**  
+   Any violation of these terms automatically terminates your rights under this license.
 
 ---
 
-## 📌 Proprietary Rights
-- All source code, documentation, and artifacts in this repository are the **exclusive property of TEOS Egypt & Elmahrosa**.  
-- No rights are granted to copy, redistribute, sublicense, or resell without explicit written consent.  
-- Access is provided solely for the purpose of **bank integration and compliance testing** under NDA.
+## TESL — TEOS Egypt Sovereign License Overlay
 
----
+This repository is additionally governed by the **TEOS Egypt Sovereign License (TESL)**.  
+TESL terms enforce:
 
-## 🔒 NDA Enforcement
-- All contributors and partner banks must have a signed **Non‑Disclosure Agreement (NDA)** with TEOS Egypt.  
-- Unauthorized disclosure of repo contents, screenshots, or documentation constitutes a breach of contract.  
-- Violations may result in immediate access revocation and legal enforcement.
+- **Proprietary & Confidential** — No redistribution, screenshots, or public disclosure without written NDA.  
+- **Commercial Rights Reserved** — All production, monetization, or enterprise deployments require explicit written permission from:  
+  **Ayman Seif / Elmahrosa International**.  
+- **Compliance Enforcement** — Violations trigger legal enforcement under Egyptian law and international banking compliance frameworks.  
 
----
-
-## 🛡️ Usage Restrictions
-- **Permitted Use:**  
-  - Internal evaluation by partner banks.  
-  - Compliance testing and regulator reporting.  
-  - Integration with bank systems under approved contracts.  
-
-- **Prohibited Use:**  
-  - Public redistribution or resale.  
-  - Reverse engineering for competitive products.  
-  - Use outside the scope of signed agreements.  
-
----
-
-## ⚖️ Jurisdiction
-- All disputes are governed by **Egyptian law**.  
-- Primary jurisdiction: **Alexandria courts**.  
-- International arbitration may be considered only under mutual agreement.
-
----
-
-## 📑 Compliance Obligations
-- Partner banks must ensure adherence to:  
-  - **KYC/AML standards** (FATF, CBE, SAMA, FCA).  
-  - **Audit logging and retention policies** (7 years regulator, 10 years SAR).  
-  - **Data privacy frameworks** (GDPR, local equivalents).  
-
----
-
-## 🧾 Warranty Disclaimer
-- TEOS Egypt provides this software **“as‑is”** for pilot and production use.  
-- No warranty is expressed or implied beyond compliance obligations.  
-- Banks assume responsibility for regulator acceptance and local deployment.
+See: [TESL.md](./TESL.md) for full sovereign license terms.
 
 ---
 
 ## 📞 Contact
-**TEOS Egypt — Legal & Governance Team**  
-📧 legal@teos-egypt.internal *(private partner channel only)*  
+
+**Founder & CEO: Ayman Seif**  
+📧 [ayman@teosegypt.com](mailto:ayman@teosegypt.com)  
 📱 WhatsApp: +20 100 616 7293  
-🔗 [LinkedIn: Ayman Seif](https://www.linkedin.com/in/aymanseif/)
+🔗 [LinkedIn](https://www.linkedin.com/in/aymanseif/)  
+🌐 [https://bankchain.teosegypt.com](https://bankchain.teosegypt.com)
 
 ---
-
-## 🔁 Change Log
-- `2025-11-30` — Initial proprietary license scaffold (NDA, restrictions, jurisdiction).
