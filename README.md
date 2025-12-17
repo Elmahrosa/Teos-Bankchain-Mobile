@@ -73,3 +73,6 @@ Contact: 📧 [ayman@teosegypt.com](mailto:ayman@teosegypt.com)
 - Unauthorized use, redistribution, or commercialization is strictly prohibited.  
 - All rights reserved under TESL sovereign authority.  
 - For partnerships or enterprise licensing, contact **Elmahrosa International**.
+## License
+This project is licensed under the PolyForm Noncommercial License 1.0.0  
+and governed by the TEOS Egypt Sovereign License (TESL).
