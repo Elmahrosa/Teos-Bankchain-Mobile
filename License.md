@@ -1,4 +1,5 @@
 # License — TEOS BankChain Mobile ⚖️
+SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 
 ⚠️ **Private Repository — Restricted to Partner Banks Only**  
 Access is limited to financial institutions operating under direct agreement with TEOS Egypt.  
