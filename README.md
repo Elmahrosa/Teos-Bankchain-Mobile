@@ -246,6 +246,28 @@ Full rights to use, modify, deploy, or commercialize are reserved for:
 
 All other usage (including commercial and production deployments)  
 requires **explicit written permission** from the owner.
+## ⚖️ License & Governance
+
+This repository is governed by a dual framework:
+
+- **PolyForm Noncommercial 1.0.0** → see [LICENSE](./LICENSE)  
+- **TEOS Egypt Sovereign License (TESL)** → master [TESL.md](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)  
+
+### 📌 Permissions
+- ✅ Non‑commercial use allowed (research, testing, evaluation)  
+- ❌ Commercial or production use requires **explicit written permission** from  
+  **Ayman Seif / Elmahrosa International**
+
+### 📜 Governance
+- Founder retains full rights to use, deploy, and monetize  
+- All other usage is subject to TESL sovereign authority  
+- Compliance and audit responsibility lies with the user
+
+---
+
+![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial-red?style=for-the-badge)
+![TESL](https://img.shields.io/badge/governance-TESL%20Sovereign%20Authority-gold?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-Active-blue?style=for-the-badge)
 
 See:  
 - [LICENSE](./LICENSE)  
