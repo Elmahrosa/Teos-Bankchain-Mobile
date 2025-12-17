@@ -1,3 +1,11 @@
+## 👤 Founder Statement
+
+TEOS Egypt is currently developed and governed by a **single founder**.
+
+I work independently and am preparing the TEOS ecosystem for presentation and strategic engagement at **Consensus Hong Kong (HK)**.
+
+All development, governance direction, and licensing decisions are made by the founder until formal institutional partnerships or governance bodies are established.
+
 # 🏦 Teos Bankchain Mobile
 
 Enterprise‑grade mobile banking chain application with multi‑layer architecture:
