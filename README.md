@@ -227,7 +227,7 @@ Effective: **Nov 30, 2025**
 🌐 [https://bankchain.teosegypt.com](https://bankchain.teosegypt.com)
 
 ---
-
+📑 See full [CONTACT.md](./docs/CONTACT.md) for regulator alignment and signature.
 ## ✍️ Author Signature
 
 ![Founder](https://img.shields.io/badge/Founder%20%26%20CEO-Ayman%20Seif-blue?style=for-the-badge)  
